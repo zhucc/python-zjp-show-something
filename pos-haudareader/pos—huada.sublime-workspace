@@ -1,0 +1,1438 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tr",
+				"True"
+			],
+			[
+				"data",
+				"data_name"
+			],
+			[
+				"set",
+				"set_date"
+			],
+			[
+				"rad",
+				"readalldate"
+			],
+			[
+				"ds",
+				"ds3231"
+			],
+			[
+				"af",
+				"aflstr"
+			],
+			[
+				"an",
+				"analyse_tlv"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"ta",
+				"tag2value"
+			],
+			[
+				"rec",
+				"record"
+			],
+			[
+				"a",
+				"analyse_tlv"
+			],
+			[
+				"rea",
+				"read_app"
+			],
+			[
+				"s",
+				"spdolvalue"
+			],
+			[
+				"t",
+				"tlv"
+			],
+			[
+				"tv",
+				"tlvdata"
+			],
+			[
+				"f",
+				"firstbyte"
+			],
+			[
+				"pse",
+				"psefunction"
+			],
+			[
+				"sfi",
+				"sfinum"
+			],
+			[
+				"read",
+				"read_app"
+			],
+			[
+				"tlv",
+				"tlvdata"
+			],
+			[
+				"fi",
+				"firstbyte"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"logg",
+				"logger"
+			],
+			[
+				"res",
+				"reset"
+			],
+			[
+				"op",
+				"opencom"
+			],
+			[
+				"log",
+				"logger"
+			],
+			[
+				"lo",
+				"logger"
+			],
+			[
+				"com",
+				"com_detect"
+			],
+			[
+				"dev",
+				"device_name"
+			],
+			[
+				"file",
+				"FILE"
+			],
+			[
+				"fil",
+				"FILE"
+			],
+			[
+				"str",
+				"str"
+			],
+			[
+				"da",
+				"data2"
+			],
+			[
+				"st",
+				"str"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"mac",
+				"macdate"
+			],
+			[
+				"DATA",
+				"data55"
+			],
+			[
+				"DA",
+				"data55"
+			],
+			[
+				"_F",
+				"_file_read"
+			],
+			[
+				"_f",
+				"_file_write"
+			],
+			[
+				"add",
+				"record_add"
+			],
+			[
+				"NUM",
+				"number"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"ST",
+				"str2ascii"
+			],
+			[
+				"RE",
+				"read_app"
+			],
+			[
+				"fiel",
+				"file_handle"
+			],
+			[
+				"auto",
+				"auto_mac"
+			],
+			[
+				"pack",
+				"packtag"
+			],
+			[
+				"get",
+				"get_mode"
+			],
+			[
+				"c",
+				"combinecmd"
+			],
+			[
+				"bi",
+				"bitmaphex"
+			],
+			[
+				"message",
+				"messagetype"
+			],
+			[
+				"chec",
+				"checkin"
+			],
+			[
+				"mf",
+				"MF"
+			],
+			[
+				"crc",
+				"crcstr"
+			],
+			[
+				"m1",
+				"m1_find"
+			],
+			[
+				"ope",
+				"open_keypad"
+			],
+			[
+				"se",
+				"setaccount"
+			],
+			[
+				"open",
+				"open_encryptkeypad"
+			],
+			[
+				"wor",
+				"workkey_encrypt"
+			],
+			[
+				"w",
+				"workkeynumber"
+			],
+			[
+				"loa",
+				"loadmk"
+			],
+			[
+				"time",
+				"timeout"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"_m1",
+				"_m1_incval"
+			],
+			[
+				"bl",
+				"block_address"
+			],
+			[
+				"b",
+				"block_address"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"mi",
+				"m1_write"
+			],
+			[
+				"fa",
+				"False"
+			],
+			[
+				"au",
+				"m1_auth"
+			],
+			[
+				"rcv",
+				"rcvstr"
+			],
+			[
+				"cpu",
+				"cpu_apdu"
+			],
+			[
+				"ke",
+				"keymode"
+			],
+			[
+				"blo",
+				"block_address"
+			],
+			[
+				"block",
+				"block_data"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"l",
+				"lbyte"
+			],
+			[
+				"d",
+				"device_name"
+			],
+			[
+				"apdu",
+				"APDU"
+			],
+			[
+				"EL",
+				"else"
+			],
+			[
+				"apd",
+				"APDU"
+			],
+			[
+				"spo",
+				"spdol"
+			],
+			[
+				"pr",
+				"processpdol"
+			],
+			[
+				"pdol",
+				"pdolvalue"
+			],
+			[
+				"pes",
+				"psesfi"
+			],
+			[
+				"tag",
+				"tag2value"
+			],
+			[
+				"r",
+				"result"
+			],
+			[
+				"packb",
+				"packbcdtag"
+			],
+			[
+				"pac",
+				"packbintag"
+			],
+			[
+				"bin",
+				"bindata"
+			],
+			[
+				"cdo",
+				"cdol1data"
+			],
+			[
+				"cd",
+				"cdoltag"
+			],
+			[
+				"cdol",
+				"cdol1"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"gac",
+				"gacdata"
+			],
+			[
+				"RS",
+				"responsecode"
+			],
+			[
+				"dic",
+				"dictalldata"
+			],
+			[
+				"resul",
+				"result"
+			],
+			[
+				"leng",
+				"length"
+			],
+			[
+				"TAG",
+				"tagvalue"
+			],
+			[
+				"we",
+				"writedict"
+			],
+			[
+				"ps",
+				"position"
+			],
+			[
+				"afl",
+				"afllist"
+			],
+			[
+				"sp",
+				"spdol"
+			],
+			[
+				"pod",
+				"pdolvalue"
+			],
+			[
+				"9f",
+				"9f7a"
+			],
+			[
+				"pd",
+				"pdolvalue"
+			],
+			[
+				"pdo",
+				"pdol"
+			],
+			[
+				"aid",
+				"aidlist"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"PSE",
+				"pse_address"
+			],
+			[
+				"ty",
+				"try	Try/Except"
+			],
+			[
+				"sl",
+				"slen1"
+			],
+			[
+				"S",
+				"staticmethod"
+			],
+			[
+				"C",
+				"CpuTransmit"
+			],
+			[
+				"SLEN",
+				"slen1"
+			],
+			[
+				"LEN",
+				"len2str"
+			],
+			[
+				"sle",
+				"slen2"
+			],
+			[
+				"len2",
+				"len2str"
+			],
+			[
+				"slen",
+				"slen1"
+			],
+			[
+				"send",
+				"sendbuff"
+			],
+			[
+				"sen",
+				"sendbuff"
+			],
+			[
+				"at",
+				"ATRBuff"
+			],
+			[
+				"cu",
+				"c_ubyte"
+			],
+			[
+				"COL",
+				"CpuColdReset"
+			],
+			[
+				"PR",
+				"Protocol"
+			],
+			[
+				"ICCP",
+				"IccPowerOn"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "#!/usr/bin/python\n# -*- coding: utf-8 -*-\n#filename:multifunction_reader.py\n# model:华大集成三合一读卡器\n# usage：\n'''\n所有返回数据，输入数据都为字符串\n接触cpu:\n1.cpu_coldreset()或者cpu_warmreset() out：true，false\n2.cpu_apdu('00A404000e315041592E5359532E444446303100')in：apdu命令 out：磁道信息或者False\n具体参考apdu命令集\n3.cpu_poweroff() out：true，false\ncpu_cardstatus() out：有卡未上电:03，\n                      无卡:02，\n                      有卡已上电:00，\n                      或者False\n\n磁条卡：\n1.magcard('02')  in：磁道号 out：磁道信息或者False\n\n取消读磁条卡\n2.magcard_overtime('02') in：磁道号，out：true，false\n\nm1卡：\nm1_find():out:卡号\n\nget_version()：获取读卡器版本号 ，用于检测串口号\n'''\nimport serial\nimport re\nimport binascii\nimport time\nimport debug\nimport logging\nlogger = logging.getLogger('pos.log') \n\nclass reader():\n\n    baud_rate = 115200\n    device_name = ''\n    timeout = 1\n    ser = None\n    #卡座号\n    number = '0c'\n\n    nationlist = ['',\n    '汉','蒙古','回','藏','维吾尔','苗','彝','壮','布依','朝鲜',\n    '满','侗','瑶','白','土家','哈尼','哈萨克','傣','黎','傈僳',\n    '佤','畲','高山','拉祜','水','东乡','纳西','景颇','柯尔克孜','土',\n    '达斡尔','仫佬','羌','布朗','撒拉','毛南','仡佬','锡伯','阿昌','普米',\n    '塔吉克','怒','乌孜别克','俄罗斯','鄂温克','德昂','保安','裕固','京','塔塔尔',\n    '独龙','鄂伦春','赫哲','门巴','珞巴','基诺','','','','',\n    '','','','','','','','','','',\n    '','','','','','','','','','',\n    '','','','','','','','','','',\n    '','','','','95','96','其他','外国血统中国籍人士']\n    genderlist = ['未知','男','女','3','4','5','6','7','8','未说明']\n\n    @staticmethod\n    def opencom(device_name):\n        try:\n            reader.ser = serial.Serial(device_name,reader.baud_rate,timeout = reader.timeout)\n            if reader.ser.isOpen():  \n                if reader.get_version():\n                    reader.device_name = device_name\n                    logger.info('open right com:' + reader.device_name)\n                    return True\n                else:\n                    return False\n            else:\n                return False\n        except Exception, e:\n            return False\n\n    @staticmethod\n    def com_detect():\n        try:\n            if reader.ser.isOpen():\n                return True\n        except Exception, e:\n            if reader.opencom('/dev/ttyUSB0') == False:\n                if reader.opencom('/dev/ttyUSB1') == False:\n                    if reader.opencom('/dev/ttyUSB2') == False:\n                        if reader.opencom('COM2') == False:\n                            logger.error('open com failed')\n                            return False\n            return True\n\n    \n    @staticmethod\n    def _getlength(data):\n        length = (len(data)+1)/2 + 4 \n        slength = format(length,'x')\n        num = len(slength)\n        if num < 4:\n            slength = '0'*(4 - num) + slength\n        hbyte = slength[:2]\n        lbyte = slength[-2:]\n        slength = lbyte + hbyte\n        return slength\n\n    @staticmethod\n    def _crc(data):\n        num = (len(data)+1)/2 \n        crcnum = 0 \n        for i in range(num):\n            try:\n                num = int(data[:2],16)\n                crcnum = crcnum ^ num\n                data = data[2:]\n            except Exception, e:\n                return 'error of change2int '\n        crcstr = format(crcnum,'x')\n        num = len(crcstr)\n        if num < 2:\n            crcstr = '0'*(2-num) + crcstr\n        return crcstr\n\n    @staticmethod\n    #传入卡片返回的数据（字符串），crc校验后，返回状态和数据域\n    def _analyse(data):\n        data = data[8:-2]\n        crcstr = data[-2:]\n        #lenstr = data[2:4] + data[:2]\n        statu = data[4:6]\n        data = data[:-2]\n        message = data[6:]\n        crcresult = reader._crc(data)\n        if crcresult == crcstr:\n            lista = []\n            lista.append(statu)\n            lista.append(message)\n            return lista\n        else:\n            logger.error(' rcv data crc error' + 'rcv:'+crcstr + 'calculator:'+crcresult)\n            return ['01']\n    \n    @staticmethod\n    def _cmd2return(data):\n        cmd = data.decode('hex')\n        reader.ser.write(cmd)\n        rcvbuff = reader.ser.read(1023)\n        rcvstr  = binascii.b2a_hex(rcvbuff)\n        #print 'recive:',rcvstr[14:-4]\n        # cx print 'reciveall',rcvstr\n        resultlist = reader._analyse(rcvstr)   \n        return resultlist\n    \n    @staticmethod\n    #读卡返回字典：键值有：'姓名'，'性别'，'国家'，'生日'，'地址'，\n    #'身份证号'，'签发机关'，'起始日期'，'结束日期'，'预留' \n    def readid():\n        id_dict = {}\n        cmd = 'fafbfcfd0400a4a0bb'\n        resultlist = reader._cmd2return(cmd)\n        if resultlist[0] == '00':\n            cmd = 'fafbfcfd0400b0b4bb'\n            resultlist = reader._cmd2return(cmd)\n            if resultlist[0] == '00':\n                cmd = 'fafbfcfd0400b1b5bb'\n                resultlist = reader._cmd2return(cmd)\n                if resultlist[0] == '00':\n                    cmd = 'fafbfcfd0400b4b0bb'\n                    cmd = cmd.decode('hex')\n                    reader.ser.write(cmd)\n                    rcvbuff = reader.ser.read(1023)\n                    if binascii.b2a_hex(rcvbuff[6:7]) == '00':\n                        idtext = rcvbuff[7:263]  \n                        name = idtext[0:30].decode(\"utf-16\").encode(\"utf-8\")\n                        id_dict['姓名'] = name\n                        gendernum = idtext[30:32].decode(\"utf-16\").encode(\"utf-8\")\n                        id_dict['性别'] = reader.genderlist[int(gendernum)] \n\n                        nationnum = idtext[32:36].decode(\"utf-16\").encode(\"utf-8\")\n                        id_dict['国家'] = reader.nationlist[int(nationnum)]\n                        \n                        id_dict['生日'] = idtext[36:52].decode(\"utf-16\").encode(\"utf-8\")\n            \n                        id_dict['地址'] = idtext[52:122].decode(\"utf-16\").encode(\"utf-8\")\n                        id_dict['身份证号'] = idtext[122:158].decode(\"utf-16\").encode(\"utf-8\")\n                        id_dict['签发机关'] = idtext[158:188].decode(\"utf-16\").encode(\"utf-8\")\n                        id_dict['起始日期'] = idtext[188:204].decode(\"utf-16\").encode(\"utf-8\")\n                        id_dict['结束日期'] = idtext[204:220].decode(\"utf-16\").encode(\"utf-8\")\n                        id_dict['预留'] = idtext[220:256].decode(\"utf-16\").encode(\"utf-8\")\n                        return id_dict\n                    else:\n                        return False\n                else:\n                    return False\n            else:\n                return False\n        else:\n            return False\n                    \n                     \n    @staticmethod\n    def get_version():\n        slength = reader._getlength('')\n        data = slength + 'a1' \n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False\n\n    #磁条卡\n    @staticmethod\n    def magcard(number,timetick = 10):\n        slength = reader._getlength(number)\n        data = slength + '70' + number\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n        cmd = data.decode('hex')\n        reader.ser.write(cmd)\n        rcvbuff = ''\n        start = time.time()\n        while rcvbuff == '':\n            rcvbuff = reader.ser.readline()\n            end = time.time()\n            if end - start > timetick:\n                reader.magcard_overtime('02')\n                break\n        rcvstr  = binascii.b2a_hex(rcvbuff)\n        resultlist = reader._analyse(rcvstr)\n        if resultlist[0] == '00':\n            return resultlist[1]\n        else:\n            return False\n\n    @staticmethod\n    def magcard_overtime(number = '02'):\n        slength = reader._getlength(number)\n        data = slength + '7b' + number\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n        \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False\n    \n\n    #接触式cpu卡\n    @staticmethod\n    def cpu_coldreset():\n        number=reader.number\n        slength = reader._getlength(number)\n        data = slength + '74' + number\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n        \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False\n    \n    @staticmethod\n    def cpu_warmreset():\n        number=reader.number\n        slength = reader._getlength(number)\n        data = slength + '75' + number\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n        \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False\n\n    @staticmethod\n    def cpu_poweroff():\n        number=reader.number\n        slength = reader._getlength(number)\n        data = slength + '73' + number\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n        \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False\n\n    @staticmethod\n    def cpu_apdu(apdudata):\n        number=reader.number\n        slength = reader._getlength(number + apdudata)\n        data = slength + '72' + number + apdudata\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n        \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return resultlist[1]\n        else:\n            logger.error('reader communication error')\n            return False\n        \n\n    @staticmethod\n    def cpu_cardstatus():\n        number=reader.number\n        slength = reader._getlength(number)\n        data = slength + '77' + number \n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n        \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00' or resultlist[0] == '02' or resultlist[0] == '03':\n            return resultlist[0]\n        else:\n            return False\n        \n    \n    #非接触式cpu卡\n    @staticmethod\n    def typeA_poweron():\n        slength = '0400'\n        data = slength + '20' \n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n     \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False\n\n    @staticmethod\n    def typeB_poweron():\n        slength = '0400'\n        data = slength + '21' \n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n     \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False\n\n    @staticmethod\n    def nonconnect_apdu(apdudata):\n        slength = reader._getlength(apdudata)\n        data = slength + '22' + apdudata\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n     \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return resultlist[1]\n        else:\n            return False\n    \n    #m1卡号\n    @staticmethod\n    def m1_find():\n        data = 'fafbfcfd0400292dbb'\n     \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return resultlist[1]\n        else:\n            return False\n    '''\n    @staticmethod\n    def _m1_read(block_address):\n        slength = reader._getlength(block_address)\n        data = slength + '24' + block_address\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n        \n        cmd = data.decode('hex')\n        reader.ser.write(cmd)\n        rcvbuff = reader.ser.read(500)\n        rcvstr  = binascii.b2a_hex(rcvbuff)\n        resultlist = reader._analyse(rcvstr)  \n\n        if resultlist[0] == '00':\n            return resultlist[1]\n        else:\n            return False\n\n    @staticmethod\n    def m1_read(block_address):\n        num = int(block_address,16)\n        sec_nr = format((num/4),'x')\n        if len(sec_nr) < 2:\n            sec_nr = '0' + sec_nr\n        if reader.m1_auth(sec_nr):\n            result = reader._m1_read(block_address)\n            if result == False:\n                return False\n            else: \n                return result\n        else:\n            return False\n\n\n    @staticmethod\n    def m1_write(block_address,block_data):\n        if len(block_data) == 32:\n            slength = reader._getlength(block_address + block_data)\n            data = slength + '25' + block_address + block_data\n            crcstr = reader._crc(data)\n            data = 'fafbfcfd'+ data + crcstr + 'bb'\n         \n            resultlist = reader._cmd2return(data)\n            if resultlist[0] == '00':\n                return True\n            else:\n                return False\n        else:\n            return False\n    \n\n    @staticmethod\n    def _m1_incval(block_address,increasevalue):\n        slength = reader._getlength(block_address + increasevalue)\n        data = slength + '26' + block_address + increasevalue\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n     \n        resultlist = reader._cmd2return(data)\n        print resultlist\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False\n\n    @staticmethod\n    def m1_incval(block_address,increasevalue):\n        num = int(block_address,16)\n        sec_nr = format((num/4),'x')\n        if len(sec_nr) < 2:\n            sec_nr = '0' + sec_nr\n        if reader.m1_auth(sec_nr):\n            print 'auth success'\n            result = reader._m1_incval(block_address,increasevalue)\n            print result\n            if result == False:\n                return False\n            else: \n                return result\n        else:\n            return False\n\n    @staticmethod\n    def _m1_decval(block_address,decreasevalue):\n        slength = reader._getlength(block_address + decreasevalue)\n        data = slength + '27' + block_address + decreasevalue\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n     \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False   \n    \n    @staticmethod\n    def m1_decval(block_address,increasevalue):\n        num = int(block_address,16)\n        sec_nr = format((num/4),'x')\n        if len(sec_nr) < 2:\n            sec_nr = '0' + sec_nr\n        if reader.m1_auth(sec_nr):\n            result = reader._m1_decval(block_address,increasevalue)\n            if result == False:\n                return False\n            else: \n                return result\n        else:\n            return False\n    \n    @staticmethod\n    def m1_loadkey(keymode,key):\n        slength = reader._getlength(keymode + key)\n        data = slength + '28' + keymode + key\n        crcstr = reader._crc(data)\n        data = 'fafbfcfd'+ data + crcstr + 'bb'\n     \n        resultlist = reader._cmd2return(data)\n        if resultlist[0] == '00':\n            return True\n        else:\n            return False \n    '''\n\nif __name__ == '__main__':\n    import time\n    if reader.com_detect():\n        '''\n        #接触cpu\n        print reader.cpu_coldreset()\n        print reader.cpu_warmreset()\n        print reader.cpu_apdu('00A404000e315041592E5359532E444446303100')\n        print reader.cpu_poweroff()\n        print reader.cpu_cardstatus() \n        #磁条卡\n        print reader.magcard('02') \n        print reader.magcard_overtime('02')    \n        '''\n        def getm1_in30s(): \n            start = time.time()\n            end = time.time()\n            while (end - start < 30):    \n                temp = reader.m1_find()\n                if temp:\n                    print temp\n                    break\n                else:\n                    end = time.time()\n                    print 'waitting for m1....'\n\n        def getid_in30s():\n            start = time.time()\n            end = time.time()\n            while (end - start < 30):    \n                result = reader.readid()\n                if result:\n                    for key,value in result.items():\n                        print key,':',value\n                    break\n                else:\n                    end = time.time()\n                    print 'waitting for idcard....'\n\n        getid_in30s()\n        getm1_in30s()\n        getid_in30s()    \n\n        \n        \n        \n\n    else:\n        print 'no com found'\n",
+			"file": "multifunction_reader.py",
+			"file_size": 17678,
+			"file_write_time": 130988753674146341,
+			"settings":
+			{
+				"buffer_size": 16401,
+				"line_ending": "Windows",
+				"scratch": true
+			}
+		},
+		{
+			"file": "apdu.py",
+			"settings":
+			{
+				"buffer_size": 3444,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "metal_keypad.py",
+			"settings":
+			{
+				"buffer_size": 12534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "read_application.py",
+			"settings":
+			{
+				"buffer_size": 10332,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "process.py",
+			"settings":
+			{
+				"buffer_size": 10863,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Administrator/Desktop/ds3231.py",
+			"settings":
+			{
+				"buffer_size": 5458,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/prj/devices/ds3231/wiringpi2-1.1.1/README",
+			"settings":
+			{
+				"buffer_size": 2127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/prj/devices/3function_reader/multifunction_reader.py",
+			"settings":
+			{
+				"buffer_size": 16298,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ic_reader.py",
+			"settings":
+			{
+				"buffer_size": 1365,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pos.log",
+			"settings":
+			{
+				"buffer_size": 277,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "file_operate.py",
+			"settings":
+			{
+				"buffer_size": 1087,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "message_factory.py",
+			"settings":
+			{
+				"buffer_size": 8585,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"last_filter": "view",
+		"selected_items":
+		[
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"install",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/prj/pos-haudareader"
+	],
+	"file_history":
+	[
+		"/E/prj/pos-haudareader/read_application.py",
+		"/E/prj/pos-haudareader/pos.log",
+		"/E/prj/pos-haudareader/metal_keypad.py",
+		"/E/prj/pos-haudareader/debug.py",
+		"/E/prj/pos-haudareader/apdu.py",
+		"/E/prj/pos-haudareader/message_factory.py",
+		"/C/Users/Administrator/Desktop/service.py",
+		"/E/prj/devices/printer/msprintdriver.py",
+		"/C/Users/Administrator/Desktop/client.py",
+		"/D/Python27/lib/socket.py",
+		"/E/资料/打印机/msprintdriver/msprintdriver.py",
+		"/E/prj/pos-haudareader/metal_kepad.py",
+		"/D/Python27/lib/logging/__init__.py",
+		"/E/prj/pos-haudareader/multifunction_reader.py",
+		"/E/prj/devices/metal_keypad/metal_kepad.py",
+		"/E/prj/devices/id_reader/id_read.py",
+		"/E/prj/pos-haudareader/process.py",
+		"/E/prj/devices/3function_reader/multifunction_reader.py",
+		"/E/prj/pos-haudareader/ic_reader.py",
+		"/C/Users/Administrator/Desktop/sensor.c",
+		"/E/prj/pos/test.py",
+		"/E/prj/pos/test1.py",
+		"/E/prj/pos/apdu.py",
+		"/E/资料/读写器/d8serialdriver/d8process.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/metal_kepad (1).py",
+		"/C/Users/Administrator/Application Data/SSH/temp/kepad.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/metal_kepad.py",
+		"/E/资料/读写器/d8serialdriver/d8function.py",
+		"/E/prj/devices/scanner/scanner.py",
+		"/E/prj/devices/d8driver/d8function.py",
+		"/D/Python27/lib/site-packages/serial/serialutil.py",
+		"/E/prj/UnionPay/py/process.py",
+		"/E/prj/UnionPay/py/read_application.py",
+		"/E/prj/UnionPay/py/ic_reader.py",
+		"/E/prj/devices/d8driver/d8card.py",
+		"/D/Python27/lib/site-packages/serial/serialwin32.py",
+		"/D/Python27/pyserial-master/README.rst",
+		"/D/Python27/pyserial-master/setup.py",
+		"/E/prj/UnionPay/py/A6CRTAPI.py",
+		"/E/prj/UnionPay/py/apdu.py",
+		"/E/prj/pos/A6CRTAPI.py",
+		"/E/prj/pos/read_application.py",
+		"/E/prj/pos/process.py",
+		"/E/prj/pos/ic_reader.py",
+		"/E/prj/UnionPay/py/test.py",
+		"/E/prj/devices/voice_make/voicemaker.py",
+		"/E/prj/bankcard.c",
+		"/D/Program Files/Python/Python35/lib/ctypes/__init__.py",
+		"/E/prj/devices/ds1302/ds1302.py",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Program Files/Sublime Text 3/Data/Packages/Default/Preferences.sublime-settings",
+		"/E/prj/pos/pos.py",
+		"/E/prj/pos/end_transaction.py",
+		"/E/prj/pos/applicationread.py",
+		"/E/prj/pos/apdu.c",
+		"/E/prj/pos/pos.c",
+		"/E/prj/keypad.py",
+		"/E/prj/bankcard.py",
+		"/E/资料/pos/iso8583/POSConnection.cs",
+		"/D/Projects/DeviceDriver/ZTKeyBoard.cs",
+		"/E/资料/pos/iso8583/PackageData.cs",
+		"/E/资料/pos/iso8583/MainForm.resx",
+		"/E/资料/pos/iso8583/Crypto.cs",
+		"/E/资料/pos/iso8583/Crypto.designer.cs",
+		"/E/资料/pos/iso8583/Decode.cs",
+		"/E/资料/pos/iso8583/Decode.designer.cs",
+		"/E/资料/pos/iso8583/Decode.resx",
+		"/E/资料/pos/iso8583/DummyServer.cs",
+		"/E/资料/pos/iso8583/Logger.cs",
+		"/E/资料/pos/iso8583/iniFile.cs",
+		"/E/资料/pos/iso8583/HexBytes.cs",
+		"/E/资料/pos/iso8583/iso8583.PS",
+		"/E/资料/pos/iso8583/iso8583.IMD",
+		"/E/资料/pos/iso8583/iso8583.IAD",
+		"/E/资料/pos/iso8583/ISO8583.cs",
+		"/E/资料/pos/iso8583/MainForm.designer.cs",
+		"/E/资料/pos/iso8583/MainForm.cs",
+		"/D/Program Files/Sublime Text 3/Data/Packages/CTags/CTags.sublime-settings",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/CTags.sublime-settings",
+		"/E/资料/pos/iso8583/POS.cs",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/Package Control.sublime-settings",
+		"/E/资料/pos/iso8583/Ask.resx",
+		"/E/资料/pos/iso8583/Ask.designer.cs",
+		"/E/资料/pos/iso8583/Program.cs",
+		"/E/资料/pos/iso8583/DB.cs",
+		"/E/资料/pos/iso8583/Ask.cs",
+		"/E/资料/pos/iso8583/Properties/AssemblyInfo.cs",
+		"/E/资料/pos/iso8583/Properties/Resources.Designer.cs",
+		"/E/资料/pos/iso8583/Properties/Settings.Designer.cs",
+		"/E/资料/pos/iso8583/Properties/Resources.resx",
+		"/E/资料/release/code/src/modules/ythttp.py",
+		"/E/资料/pos/iso8583/Properties/Settings.settings",
+		"/C/Users/Administrator/Application Data/SSH/temp/voicemaker.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/scanner.py",
+		"/E/prj/devices/scanning_gun/scanner.py",
+		"/E/prj/devices/scanning_gun/scanning_gun.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/scanning_gun.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/modules (1).rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/msprintdriver.rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/msprintdriver (1).rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/id_read.rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/ds1302 (1).py",
+		"/C/Users/Administrator/Application Data/SSH/temp/msprintdriver.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/ds1302.py"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"raise",
+			"hex2bin",
+			"afl",
+			"terminalversion",
+			"processlimit",
+			"read_app",
+			"analyse_tlv",
+			"analyse_tlv_once",
+			"spdol",
+			"pdol",
+			"print",
+			"gettagvalue",
+			"sfidecode",
+			"analyse_tlv",
+			"character",
+			"analyse_tlv",
+			"afl",
+			"analyse_tlv",
+			"hex2bin",
+			"select",
+			"pdol",
+			"analyse_tlv",
+			"psefunction",
+			"_len2str",
+			"_num2str",
+			"psesfi",
+			"data",
+			"result",
+			"analysegac",
+			"read_record",
+			"cpu_apdu",
+			"_cmd2return",
+			"logger",
+			"linker",
+			"logging",
+			"logger",
+			"logging",
+			"FILE.read",
+			"MF._file_read",
+			"_file_read",
+			"MF._file_write",
+			"_file_write",
+			"data11_filename",
+			"linker",
+			"data2",
+			"consumelist",
+			"checkinlist",
+			"hospitalname",
+			"logging",
+			"message",
+			"error",
+			"keypad",
+			"message",
+			"data11",
+			"MF.data_address11 ",
+			"'d:\\\\consume.txt'",
+			"file_write",
+			"_file_write",
+			"record_add",
+			"message_type",
+			"str2ascii2",
+			"binascii",
+			"print",
+			"linker",
+			"maker",
+			"30323030F23844C1B0C1980000000000000000013136363232353838323030323830313839393433303335303030303030303335303030303039323331373536333130303033313331373536333130393233343930303032313030313230383831373835383030303838313738353830303337363232353838323030323830313839393D34393132313230303534333130303333363935383130343939363232353838303230393233373732373D313536313536303530303035303030303030313031353333363935383231343030303034393132303D303230393233373732373D3030303030303030303D303230303030303030323030303030303030303030303032303239323032313132333435363738393031323331363234361F210303502F01123032333839383434323035383134303031322F0581D850414B4A3130343434303630303133202020202020202020303030303030313731303230304643435332303134303731343136353632373030303238327C32343430363035303020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020236060303031353538303026313536D8977F8E3D383AF232363030303030303030303030303030",
+			"print",
+			"keypad",
+			"message_dict",
+			"getversion",
+			"m1_find",
+			"get_version",
+			"getversion",
+			"id",
+			"ID",
+			"id",
+			"ID",
+			"id",
+			"ID",
+			"id",
+			"ID",
+			"IDentity",
+			"id",
+			"keypad",
+			"data",
+			"]\n",
+			"cpu_cardstatus",
+			"AAAAAA",
+			"select",
+			"read_record",
+			"_cmd2return",
+			"print",
+			"select",
+			"print",
+			"_cmd2return",
+			"非接触式cpu卡",
+			"_cmd2return",
+			"cpu_apdu",
+			"A6",
+			"keypad",
+			"A6.CpuTransmit",
+			"decode",
+			"identity",
+			"False",
+			"id",
+			"operate_keypad",
+			"getversion",
+			"setaccount",
+			"open_encryptkeypad",
+			"open_keypad",
+			"pass",
+			"open_keypad",
+			"C450DFB40D80DA08877950CE8144811E",
+			"00000000",
+			"0000000",
+			"000000",
+			"00000",
+			"0000",
+			"000",
+			"00",
+			"open_keypad",
+			"False",
+			"e",
+			"return",
+			"False",
+			"return",
+			"kepad",
+			"splitcmd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"    ",
+			"",
+			"keypad"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "multifunction_reader.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1375,
+								1375
+							]
+						],
+						"settings":
+						{
+							"in_converting": true,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1284.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "apdu.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1041,
+								1041
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "metal_keypad.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "read_application.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"force_encoding": "UTF-8",
+							"in_converting": true,
+							"origin_encoding": "UTF-8",
+							"revert_to_scratch": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2034.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "process.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6039,
+								6039
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4388.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Administrator/Desktop/ds3231.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5420,
+								5420
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/E/prj/devices/ds3231/wiringpi2-1.1.1/README",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/E/prj/devices/3function_reader/multifunction_reader.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"in_converting": true,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "ic_reader.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 576.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "pos.log",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "file_operate.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "message_factory.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7211,
+								7211
+							]
+						],
+						"settings":
+						{
+							"check_times": 0,
+							"clone_numbers": 1,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 174.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "pos—huada.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 58.0,
+		"last_filter": "HandleField",
+		"selected_items":
+		[
+			[
+				"HandleField",
+				"HandleField"
+			]
+		],
+		"width": 464.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

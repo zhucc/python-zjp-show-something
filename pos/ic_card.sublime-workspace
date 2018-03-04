@@ -1,0 +1,885 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"data",
+				"datarcv1"
+			],
+			[
+				"com",
+				"COM6"
+			],
+			[
+				"s",
+				"str"
+			],
+			[
+				"ope",
+				"open_keypad"
+			],
+			[
+				"se",
+				"setaccount"
+			],
+			[
+				"st",
+				"str1"
+			],
+			[
+				"da",
+				"data_decode"
+			],
+			[
+				"get",
+				"get_encryptpin"
+			],
+			[
+				"open",
+				"open_encryptkeypad"
+			],
+			[
+				"lo",
+				"loadwk"
+			],
+			[
+				"set",
+				"setparameter"
+			],
+			[
+				"wor",
+				"workkey_encrypt"
+			],
+			[
+				"w",
+				"workkeynumber"
+			],
+			[
+				"loa",
+				"loadmk"
+			],
+			[
+				"time",
+				"timeout"
+			],
+			[
+				"tr",
+				"True"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"res",
+				"resultlist"
+			],
+			[
+				"_m1",
+				"_m1_incval"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"bl",
+				"block_address"
+			],
+			[
+				"b",
+				"block_address"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"mi",
+				"m1_write"
+			],
+			[
+				"fa",
+				"False"
+			],
+			[
+				"m1",
+				"m1_auth"
+			],
+			[
+				"au",
+				"m1_auth"
+			],
+			[
+				"read",
+				"reader"
+			],
+			[
+				"c",
+				"crcresult"
+			],
+			[
+				"crc",
+				"crcstr"
+			],
+			[
+				"rcv",
+				"rcvstr"
+			],
+			[
+				"cpu",
+				"cpu_apdu"
+			],
+			[
+				"ke",
+				"keymode"
+			],
+			[
+				"blo",
+				"block_address"
+			],
+			[
+				"block",
+				"block_data"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"l",
+				"lbyte"
+			],
+			[
+				"f",
+				"False"
+			],
+			[
+				"d",
+				"device_name"
+			],
+			[
+				"apdu",
+				"APDU"
+			],
+			[
+				"EL",
+				"else"
+			],
+			[
+				"rea",
+				"read_app"
+			],
+			[
+				"apd",
+				"APDU"
+			],
+			[
+				"spo",
+				"spdol"
+			],
+			[
+				"pr",
+				"processpdol"
+			],
+			[
+				"ta",
+				"tag2value"
+			],
+			[
+				"pdol",
+				"pdolvalue"
+			],
+			[
+				"pes",
+				"psesfi"
+			],
+			[
+				"t",
+				"True"
+			],
+			[
+				"tag",
+				"tag2value"
+			],
+			[
+				"r",
+				"result"
+			],
+			[
+				"pack",
+				"packdata"
+			],
+			[
+				"packb",
+				"packbcdtag"
+			],
+			[
+				"pac",
+				"packbintag"
+			],
+			[
+				"bin",
+				"bindata"
+			],
+			[
+				"cdo",
+				"cdol1data"
+			],
+			[
+				"cd",
+				"cdoltag"
+			],
+			[
+				"cdol",
+				"cdol1"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"gac",
+				"gacdata"
+			],
+			[
+				"RS",
+				"responsecode"
+			],
+			[
+				"dic",
+				"dictalldata"
+			],
+			[
+				"resul",
+				"result"
+			],
+			[
+				"leng",
+				"length"
+			],
+			[
+				"TAG",
+				"tagvalue"
+			],
+			[
+				"we",
+				"writedict"
+			],
+			[
+				"ps",
+				"position"
+			],
+			[
+				"rec",
+				"read_record"
+			],
+			[
+				"sfi",
+				"sfilist"
+			],
+			[
+				"afl",
+				"afllist"
+			],
+			[
+				"af",
+				"afllist"
+			],
+			[
+				"sp",
+				"spdol"
+			],
+			[
+				"pod",
+				"pdolvalue"
+			],
+			[
+				"9f",
+				"9f7a"
+			],
+			[
+				"pd",
+				"pdolvalue"
+			],
+			[
+				"pdo",
+				"pdol"
+			],
+			[
+				"aid",
+				"aidlist"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"PSE",
+				"pse_address"
+			],
+			[
+				"pse",
+				"pse_address"
+			],
+			[
+				"ty",
+				"try	Try/Except"
+			],
+			[
+				"sl",
+				"slen1"
+			],
+			[
+				"S",
+				"staticmethod"
+			],
+			[
+				"C",
+				"CpuTransmit"
+			],
+			[
+				"SLEN",
+				"slen1"
+			],
+			[
+				"LEN",
+				"len2str"
+			],
+			[
+				"sle",
+				"slen2"
+			],
+			[
+				"len2",
+				"len2str"
+			],
+			[
+				"slen",
+				"slen1"
+			],
+			[
+				"send",
+				"sendbuff"
+			],
+			[
+				"sen",
+				"sendbuff"
+			],
+			[
+				"at",
+				"ATRBuff"
+			],
+			[
+				"cu",
+				"c_ubyte"
+			],
+			[
+				"a",
+				"ATRBuff"
+			],
+			[
+				"COL",
+				"CpuColdReset"
+			],
+			[
+				"PR",
+				"Protocol"
+			],
+			[
+				"ICCP",
+				"IccPowerOn"
+			],
+			[
+				"_a6sam",
+				"_A6_SamDeactivate"
+			],
+			[
+				"A6_IccPowerOn",
+				"_A6_IccPowerOn"
+			],
+			[
+				"A6_IccPowerOf",
+				"_A6_IccPowerOff"
+			],
+			[
+				"a6icc",
+				"A6_IccPowerOn"
+			],
+			[
+				"_A6_Ledo",
+				"_A6_LedOn"
+			],
+			[
+				"_a6se",
+				"_A6_SetBaudRate"
+			],
+			[
+				"RES",
+				"result"
+			],
+			[
+				"a6b",
+				"_A6_LedBlink"
+			],
+			[
+				"conn",
+				"connect_result"
+			],
+			[
+				"dp",
+				"DPOS"
+			],
+			[
+				"rc",
+				"RecvLength"
+			],
+			[
+				"rs",
+				"result"
+			],
+			[
+				"ver",
+				"VerLength"
+			],
+			[
+				"v",
+				"pcbVerLength"
+			],
+			[
+				"_a",
+				"_A6_Connect"
+			],
+			[
+				"_",
+				"_mod"
+			],
+			[
+				"A",
+				"A6initialize"
+			],
+			[
+				"dll",
+				"dll"
+			],
+			[
+				"p",
+				"phReader"
+			],
+			[
+				"_exda",
+				"_exdataLen"
+			],
+			[
+				"han",
+				"HANDLE"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"last_filter": "view",
+		"selected_items":
+		[
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"install",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/prj/pos-haudareader/apdu.py",
+		"/E/prj/devices/id_reader/id_read.py",
+		"/E/prj/devices/metal_keypad/metal_kepad.py",
+		"/E/prj/pos/test.py",
+		"/E/prj/pos/test1.py",
+		"/E/prj/pos/apdu.py",
+		"/E/prj/devices/3function_reader/multifunction_reader.py",
+		"/E/资料/读写器/d8serialdriver/d8process.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/metal_kepad (1).py",
+		"/C/Users/Administrator/Application Data/SSH/temp/kepad.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/metal_kepad.py",
+		"/E/资料/读写器/d8serialdriver/d8function.py",
+		"/E/prj/devices/scanner/scanner.py",
+		"/E/prj/devices/d8driver/d8function.py",
+		"/D/Python27/lib/site-packages/serial/serialutil.py",
+		"/E/prj/UnionPay/py/process.py",
+		"/E/prj/UnionPay/py/read_application.py",
+		"/E/prj/UnionPay/py/ic_reader.py",
+		"/E/prj/devices/d8driver/d8card.py",
+		"/E/prj/devices/printer/msprintdriver.py",
+		"/D/Python27/lib/site-packages/serial/serialwin32.py",
+		"/D/Python27/pyserial-master/README.rst",
+		"/D/Python27/pyserial-master/setup.py",
+		"/E/prj/UnionPay/py/A6CRTAPI.py",
+		"/E/prj/UnionPay/py/apdu.py",
+		"/E/prj/pos/A6CRTAPI.py",
+		"/E/prj/pos/read_application.py",
+		"/E/prj/pos/process.py",
+		"/E/prj/pos/ic_reader.py",
+		"/E/prj/UnionPay/py/test.py",
+		"/E/prj/devices/voice_make/voicemaker.py",
+		"/E/prj/bankcard.c",
+		"/D/Program Files/Python/Python35/lib/ctypes/__init__.py",
+		"/E/prj/devices/ds1302/ds1302.py",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Program Files/Sublime Text 3/Data/Packages/Default/Preferences.sublime-settings",
+		"/E/prj/pos/pos.py",
+		"/E/prj/pos/end_transaction.py",
+		"/E/prj/pos/applicationread.py",
+		"/E/prj/pos/apdu.c",
+		"/E/prj/pos/pos.c",
+		"/E/prj/keypad.py",
+		"/E/prj/bankcard.py",
+		"/E/资料/pos/iso8583/POSConnection.cs",
+		"/D/Projects/DeviceDriver/ZTKeyBoard.cs",
+		"/E/资料/pos/iso8583/PackageData.cs",
+		"/E/资料/pos/iso8583/MainForm.resx",
+		"/E/资料/pos/iso8583/Crypto.cs",
+		"/E/资料/pos/iso8583/Crypto.designer.cs",
+		"/E/资料/pos/iso8583/Decode.cs",
+		"/E/资料/pos/iso8583/Decode.designer.cs",
+		"/E/资料/pos/iso8583/Decode.resx",
+		"/E/资料/pos/iso8583/DummyServer.cs",
+		"/E/资料/pos/iso8583/Logger.cs",
+		"/E/资料/pos/iso8583/iniFile.cs",
+		"/E/资料/pos/iso8583/HexBytes.cs",
+		"/E/资料/pos/iso8583/iso8583.PS",
+		"/E/资料/pos/iso8583/iso8583.IMD",
+		"/E/资料/pos/iso8583/iso8583.IAD",
+		"/E/资料/pos/iso8583/ISO8583.cs",
+		"/E/资料/pos/iso8583/MainForm.designer.cs",
+		"/E/资料/pos/iso8583/MainForm.cs",
+		"/D/Program Files/Sublime Text 3/Data/Packages/CTags/CTags.sublime-settings",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/CTags.sublime-settings",
+		"/E/资料/pos/iso8583/POS.cs",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/Package Control.sublime-settings",
+		"/E/资料/pos/iso8583/Ask.resx",
+		"/E/资料/pos/iso8583/Ask.designer.cs",
+		"/E/资料/pos/iso8583/Program.cs",
+		"/E/资料/pos/iso8583/DB.cs",
+		"/E/资料/pos/iso8583/Ask.cs",
+		"/E/资料/pos/iso8583/Properties/AssemblyInfo.cs",
+		"/E/资料/pos/iso8583/Properties/Resources.Designer.cs",
+		"/E/资料/pos/iso8583/Properties/Settings.Designer.cs",
+		"/E/资料/pos/iso8583/Properties/Resources.resx",
+		"/E/资料/release/code/src/modules/ythttp.py",
+		"/E/资料/pos/iso8583/Properties/Settings.settings",
+		"/C/Users/Administrator/Application Data/SSH/temp/voicemaker.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/scanner.py",
+		"/E/prj/devices/scanning_gun/scanner.py",
+		"/E/prj/devices/scanning_gun/scanning_gun.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/scanning_gun.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/modules (1).rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/msprintdriver.rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/msprintdriver (1).rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/id_read.rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/ds1302 (1).py",
+		"/C/Users/Administrator/Application Data/SSH/temp/msprintdriver.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/ds1302.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"decode",
+			"identity",
+			"False",
+			"id",
+			"operate_keypad",
+			"getversion",
+			"setaccount",
+			"open_encryptkeypad",
+			"open_keypad",
+			"pass",
+			"open_keypad",
+			"C450DFB40D80DA08877950CE8144811E",
+			"00000000",
+			"0000000",
+			"000000",
+			"00000",
+			"0000",
+			"000",
+			"00",
+			"open_keypad",
+			"False",
+			"e",
+			"return",
+			"False",
+			"return",
+			"kepad",
+			"splitcmd",
+			"checkmodule",
+			"self",
+			"reader",
+			"com_detect",
+			"m1_read",
+			"m1_incval",
+			"m1_decval",
+			"increasevalue",
+			"m1_auth",
+			"m1_write",
+			"m1_read",
+			"cpu_cardstatus",
+			"cpu_coldreset",
+			"或者cpu_warmreset",
+			"cpu_apdu",
+			"reader.",
+			"magcard_overtime",
+			"':\n",
+			"magcard_overtime",
+			"magcard",
+			"magcard('02')",
+			"magcard",
+			"def",
+			"print",
+			"m1_write",
+			"m1_read",
+			"number",
+			"reader",
+			")\n",
+			"cpu_cardstatus",
+			"print",
+			"cpu_cardstatus",
+			"cpu_warmreset",
+			"cpu_coldreset",
+			"cpu_apdu",
+			"_cmd2return",
+			"cpu_coldreset",
+			"number=reader.number",
+			"reader.number",
+			"number = reader.number",
+			"cpu_cardstatus",
+			",\n",
+			"1",
+			"id",
+			"id_",
+			"ID_",
+			"id_",
+			"ID_",
+			"id_",
+			"self",
+			"def",
+			"number",
+			"inc",
+			"number",
+			"resultlist",
+			"slength",
+			"printdevice",
+			"82",
+			"character",
+			"sfilist",
+			"tag2value",
+			"dicposdata",
+			"value",
+			"gettagvalue",
+			"pse",
+			"reack",
+			"vlaue",
+			"\n            ",
+			"tag2value",
+			"limitmoney",
+			"hospitalname",
+			"terminal",
+			"terminalversion",
+			"responsecode",
+			"gactype",
+			"limitmoney",
+			"nowdate",
+			"tvrvalue",
+			"read_app",
+			"tag2value",
+			"num2str",
+			"#define",
+			"HandleField",
+			"self"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"    ",
+			"",
+			"keypad"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 206.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "ic_card.py",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 58.0,
+		"last_filter": "HandleField",
+		"selected_items":
+		[
+			[
+				"HandleField",
+				"HandleField"
+			]
+		],
+		"width": 464.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 261.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

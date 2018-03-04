@@ -1,0 +1,1746 @@
+[2015-12-01 10:40:02.425][XZ_F10_API_TEST.exe][3440]---打开串口---
+[2015-12-01 10:40:02.815][XZ_F10_API_TEST.exe][3440]OpenCom nPort = 6,nBaud = 9600,success
+[2015-12-01 10:40:02.815][XZ_F10_API_TEST.exe][3440]---回送字符---
+[2015-12-01 10:40:02.815][XZ_F10_API_TEST.exe][3440]SUNSON_SendAscII,Ascii = 0x41
+[2015-12-01 10:40:02.830][XZ_F10_API_TEST.exe][3440]SUNSON_SendAscII, result = 0x41
+[2015-12-01 10:40:02.862][XZ_F10_API_TEST.exe][3440]****获取键盘模式****
+[2015-12-01 10:40:02.877][XZ_F10_API_TEST.exe][3440]SUNSON_GetEPPMode,ucEPPMode = 3030
+[2015-12-01 10:40:04.749][XZ_F10_API_TEST.exe][3440]SUNSON_ResetEPP
+[2015-12-01 10:40:04.749][XZ_F10_API_TEST.exe][3440]---键盘复位自检(不破坏密钥区)---
+[2015-12-01 10:40:07.760][XZ_F10_API_TEST.exe][3440]SUNSON_ResetEPP, result = 0x04(成功)
+[2015-12-01 10:40:08.384][XZ_F10_API_TEST.exe][3440]---读产品序列号---
+[2015-12-01 10:40:08.384][XZ_F10_API_TEST.exe][3440]SUNSON_GetSerialNumber
+[2015-12-01 10:40:08.415][XZ_F10_API_TEST.exe][3440]SUNSON_GetSerialNumber, result = F9EFB60F584A7B62
+[2015-12-01 10:40:08.415][XZ_F10_API_TEST.exe][3440]---读取版本号---
+[2015-12-01 10:40:08.415][XZ_F10_API_TEST.exe][3440]SUNSON_GetVersion
+[2015-12-01 10:40:08.493][XZ_F10_API_TEST.exe][3440]SUNSON_GetVersion, result = (0x)585A2D483630312D4631302D56
+[2015-12-01 10:40:08.509][XZ_F10_API_TEST.exe][3440]****获取键盘模式****
+[2015-12-01 10:40:08.524][XZ_F10_API_TEST.exe][3440]SUNSON_GetEPPMode,ucEPPMode = 3030
+[2015-12-01 10:40:15.202][XZ_F10_API_TEST.exe][3440]****设置国密非国密模式****
+[2015-12-01 10:40:15.202][XZ_F10_API_TEST.exe][3440]SUNSON_SetEPPSMMode,ucSMMode = 0x01
+[2015-12-01 10:40:15.296][XZ_F10_API_TEST.exe][3440]国密模式设置成功！
+[2015-12-01 10:40:51.207][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:40:51.207][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 10:40:51.301][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:40:51.316][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:40:51.316][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 10:40:51.410][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:40:51.410][XZ_F10_API_TEST.exe][3440]---下载主密钥---
+[2015-12-01 10:40:51.410][XZ_F10_API_TEST.exe][3440]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 8, key = 0123456789ABCDEF
+[2015-12-01 10:40:51.410][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:40:51.410][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 10:40:51.519][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:40:51.644][XZ_F10_API_TEST.exe][3440]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 10:40:54.187][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:40:54.187][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 10:40:54.296][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:40:54.296][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:40:54.296][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 10:40:54.405][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:40:54.405][XZ_F10_API_TEST.exe][3440]---下载主密钥---
+[2015-12-01 10:40:54.405][XZ_F10_API_TEST.exe][3440]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 8, key = 0123456789ABCDEF
+[2015-12-01 10:40:54.405][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:40:54.405][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 10:40:54.499][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:40:54.639][XZ_F10_API_TEST.exe][3440]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 10:41:19.990][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:20.006][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 10:41:20.099][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:20.099][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:20.099][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 10:41:20.209][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:20.209][XZ_F10_API_TEST.exe][3440]---下载工作密钥---
+[2015-12-01 10:41:20.209][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 8,WorkKeyCiphertext = (0x)0102030405060708
+[2015-12-01 10:41:20.209][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:20.209][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 10:41:20.318][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:20.365][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:41:20.365][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:41:20.380][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:41:20.396][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:41:20.396][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 10:41:20.458][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = 13889F997C146864DF1DE8995FD2FD82
+[2015-12-01 10:41:20.458][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey, result = 13889F997C146864(校验值)
+[2015-12-01 10:41:24.187][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:24.187][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 10:41:24.296][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:24.296][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:24.296][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 10:41:24.389][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:24.405][XZ_F10_API_TEST.exe][3440]---下载工作密钥---
+[2015-12-01 10:41:24.405][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 8,WorkKeyCiphertext = (0x)0102030405060708
+[2015-12-01 10:41:24.405][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:24.405][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 10:41:24.499][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:24.561][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:41:24.561][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:41:24.577][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:41:24.577][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:41:24.592][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 10:41:24.655][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = 13889F997C146864DF1DE8995FD2FD82
+[2015-12-01 10:41:24.655][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey, result = 13889F997C146864(校验值)
+[2015-12-01 10:41:27.322][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:41:27.322][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:41:27.338][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:41:31.378][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:41:31.378][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:41:31.394][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:41:40.691][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:40.691][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 10:41:40.801][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:40.801][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:40.801][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 10:41:40.894][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:40.894][XZ_F10_API_TEST.exe][3440]---下载工作密钥---
+[2015-12-01 10:41:40.894][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 8,WorkKeyCiphertext = (0x)0102030405060708
+[2015-12-01 10:41:40.910][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:40.910][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 10:41:41.003][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:41.066][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:41:41.066][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:41:41.081][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:41:41.081][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:41:41.081][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 10:41:41.159][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = 13889F997C146864DF1DE8995FD2FD82
+[2015-12-01 10:41:41.159][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey, result = 13889F997C146864(校验值)
+[2015-12-01 10:41:42.766][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:41:42.766][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:41:42.782][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:41:51.627][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:51.627][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 10:41:51.721][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:51.721][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:51.721][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 10:41:51.830][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:51.830][XZ_F10_API_TEST.exe][3440]---下载工作密钥---
+[2015-12-01 10:41:51.830][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 8,WorkKeyCiphertext = (0x)0102030405060708
+[2015-12-01 10:41:51.830][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:41:51.830][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 10:41:51.939][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:41:51.986][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:41:51.986][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:41:52.017][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:41:52.017][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:41:52.017][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 10:41:52.095][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = 13889F997C146864DF1DE8995FD2FD82
+[2015-12-01 10:41:52.095][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey, result = 13889F997C146864(校验值)
+[2015-12-01 10:42:49.738][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:42:49.738][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:42:49.769][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:42:49.769][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:42:49.769][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 10:42:49.863][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:42:49.879][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:42:49.879][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:42:49.972][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:42:49.972][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:42:49.972][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 10:42:50.081][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:42:50.081][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:42:50.081][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x00
+[2015-12-01 10:42:50.175][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:42:50.191][XZ_F10_API_TEST.exe][3440]---打开键盘仿真---
+[2015-12-01 10:42:50.191][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 10:42:50.206][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 10:42:50.206][XZ_F10_API_TEST.exe][3440]---启动密码键盘加密---
+[2015-12-01 10:42:50.206][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 10:42:50.237][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 10:42:53.404][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:42:53.404][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:42:53.841][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:42:53.841][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:42:54.247][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:42:54.247][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:42:55.120][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:42:55.120][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:42:55.479][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:42:55.479][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:42:55.931][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:42:55.931][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:42:55.931][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:42:55.931][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 10:42:55.931][XZ_F10_API_TEST.exe][3440]---取PIN密文---
+[2015-12-01 10:42:55.931][XZ_F10_API_TEST.exe][3440]SUNSON_ReadCypherPin
+[2015-12-01 10:42:56.009][XZ_F10_API_TEST.exe][3440]SUNSON_ReadCypherPin, ReturnInfo = 4DA79CA57270690A
+[2015-12-01 10:42:56.009][XZ_F10_API_TEST.exe][3440]---数据解密运算---
+[2015-12-01 10:42:56.009][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ucDataLen = 21,SourceData = (0x)4DA79CA57270690AADCF9B2E22FFB9230000000000
+[2015-12-01 10:42:56.150][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ReturnInfo = 313233343536000000000000000000003F1A8B0E6781908A7B5B56F0EC20014D
+[2015-12-01 10:43:15.916][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:43:15.916][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:43:15.947][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:43:15.947][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:43:15.947][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 10:43:16.041][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:43:16.056][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:43:16.056][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:43:16.150][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:43:16.150][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:43:16.150][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 10:43:16.259][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:43:16.259][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:43:16.259][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x00
+[2015-12-01 10:43:16.353][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:43:16.368][XZ_F10_API_TEST.exe][3440]---打开键盘仿真---
+[2015-12-01 10:43:16.368][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 10:43:16.384][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 10:43:16.384][XZ_F10_API_TEST.exe][3440]---启动密码键盘加密---
+[2015-12-01 10:43:16.384][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 10:43:16.415][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 10:43:18.896][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:43:18.896][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:43:19.348][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:43:19.364][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:43:20.300][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:43:20.300][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:43:20.846][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:43:20.846][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:43:21.236][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:43:21.236][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:43:21.626][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:43:21.626][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:43:21.626][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:43:21.626][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 10:43:21.626][XZ_F10_API_TEST.exe][3440]---取PIN密文---
+[2015-12-01 10:43:21.626][XZ_F10_API_TEST.exe][3440]SUNSON_ReadCypherPin
+[2015-12-01 10:43:21.704][XZ_F10_API_TEST.exe][3440]SUNSON_ReadCypherPin, ReturnInfo = 4DA79CA57270690A
+[2015-12-01 10:43:21.704][XZ_F10_API_TEST.exe][3440]---数据解密运算---
+[2015-12-01 10:43:21.704][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ucDataLen = 21,SourceData = (0x)4DA79CA57270690AADCF9B2E22FFB9230100000000
+[2015-12-01 10:43:21.844][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ReturnInfo = 31323334353600000000000000000000761CB91C41A5E7230A55544A6DF5EBF0
+[2015-12-01 10:43:56.367][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:43:56.367][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:43:56.398][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:43:56.398][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:43:56.398][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 10:43:56.492][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:43:56.492][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:43:56.492][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:43:56.601][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:43:56.601][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:43:56.601][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 10:43:56.710][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:43:56.710][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:43:56.710][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x00
+[2015-12-01 10:43:56.804][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:43:56.804][XZ_F10_API_TEST.exe][3440]---打开键盘仿真---
+[2015-12-01 10:43:56.804][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 10:43:56.835][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 10:43:56.835][XZ_F10_API_TEST.exe][3440]---启动密码键盘加密---
+[2015-12-01 10:43:56.835][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 10:43:56.866][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 10:44:16.851][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:44:16.851][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 129
+[2015-12-01 10:46:42.012][XZ_F10_API_TEST.exe][3440]---打开键盘仿真---
+[2015-12-01 10:46:42.012][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2015-12-01 10:46:42.075][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 10:46:44.196][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:46:44.196][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:46:44.212][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:46:44.212][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:46:44.212][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 10:46:44.321][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:46:44.321][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:46:44.321][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:46:44.415][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:46:44.430][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:46:44.430][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 10:46:44.524][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:46:44.524][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:46:44.524][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x00
+[2015-12-01 10:46:44.633][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:46:44.633][XZ_F10_API_TEST.exe][3440]---打开键盘仿真---
+[2015-12-01 10:46:44.633][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 10:46:44.649][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 10:46:44.649][XZ_F10_API_TEST.exe][3440]---启动密码键盘加密---
+[2015-12-01 10:46:44.664][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 10:46:44.680][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 10:46:46.645][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:46:46.645][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:46:47.176][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:46:47.176][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:46:47.644][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:46:47.644][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:46:48.346][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:46:48.346][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:46:48.751][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:46:48.751][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:46:49.110][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:46:49.126][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:46:49.126][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:46:49.126][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 10:46:49.126][XZ_F10_API_TEST.exe][3440]---取PIN密文---
+[2015-12-01 10:46:49.126][XZ_F10_API_TEST.exe][3440]SUNSON_ReadCypherPin
+[2015-12-01 10:46:49.188][XZ_F10_API_TEST.exe][3440]SUNSON_ReadCypherPin, ReturnInfo = 4DA79CA57270690A
+[2015-12-01 10:46:49.204][XZ_F10_API_TEST.exe][3440]---数据解密运算---
+[2015-12-01 10:46:49.204][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ucDataLen = 21,SourceData = (0x)4DA79CA57270690AADCF9B2E22FFB9230200000000
+[2015-12-01 10:46:49.329][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ReturnInfo = 31323334353600000000000000000000F704B3B16D7B22450FF41875B2215B92
+[2015-12-01 10:47:13.182][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:47:13.198][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:47:13.213][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:47:13.213][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:47:13.213][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 10:47:13.322][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:47:13.322][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:47:13.322][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:47:13.416][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:47:13.416][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:47:13.416][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 10:47:13.525][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:47:13.525][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:47:13.525][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x00
+[2015-12-01 10:47:13.619][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:47:13.634][XZ_F10_API_TEST.exe][3440]---打开键盘仿真---
+[2015-12-01 10:47:13.634][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 10:47:13.650][XZ_F10_API_TEST.exe][3440]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 10:47:13.650][XZ_F10_API_TEST.exe][3440]---启动密码键盘加密---
+[2015-12-01 10:47:13.650][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 10:47:13.681][XZ_F10_API_TEST.exe][3440]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 10:47:15.397][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:47:15.397][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:47:15.756][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:47:15.756][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:47:16.130][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:47:16.130][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:47:17.051][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:47:17.066][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:47:17.378][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:47:17.378][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:47:17.706][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:47:17.706][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 10:47:17.706][XZ_F10_API_TEST.exe][3440]---获取按下的按键键值---
+[2015-12-01 10:47:17.706][XZ_F10_API_TEST.exe][3440]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 10:47:17.722][XZ_F10_API_TEST.exe][3440]---取PIN密文---
+[2015-12-01 10:47:17.722][XZ_F10_API_TEST.exe][3440]SUNSON_ReadCypherPin
+[2015-12-01 10:47:17.784][XZ_F10_API_TEST.exe][3440]SUNSON_ReadCypherPin, ReturnInfo = 4DA79CA57270690A
+[2015-12-01 10:47:17.784][XZ_F10_API_TEST.exe][3440]---数据解密运算---
+[2015-12-01 10:47:17.784][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ucDataLen = 21,SourceData = (0x)4DA79CA57270690AADCF9B2E22FFB9230300000000
+[2015-12-01 10:47:17.924][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ReturnInfo = 31323334353600000000000000000000E59C2B1C8ECE3586C40771F631CE5CA5
+[2015-12-01 10:49:29.121][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:49:29.121][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 10:49:29.214][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:49:29.214][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:49:29.214][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 10:49:29.324][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:49:29.324][XZ_F10_API_TEST.exe][3440]---下载工作密钥---
+[2015-12-01 10:49:29.324][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 8,WorkKeyCiphertext = (0x)0102030405060708
+[2015-12-01 10:49:29.324][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:49:29.324][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 10:49:29.433][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:49:29.480][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:49:29.480][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:49:29.511][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:49:29.511][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:49:29.511][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 10:49:29.589][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = 13889F997C146864DF1DE8995FD2FD82
+[2015-12-01 10:49:29.589][XZ_F10_API_TEST.exe][3440]SUNSON_LoadWorkKey, result = 13889F997C146864(校验值)
+[2015-12-01 10:51:47.480][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:51:47.480][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:51:47.511][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:51:47.511][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:51:47.511][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 10:51:47.605][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:51:47.605][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:51:47.605][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 10:51:47.714][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:51:47.714][XZ_F10_API_TEST.exe][3440]---数据mac运算---
+[2015-12-01 10:51:47.714][XZ_F10_API_TEST.exe][3440]SUNSON_MakeMac nMacDataLen = 18,ucMacData = (0x)010203040506070809111213141516171819
+[2015-12-01 10:51:47.807][XZ_F10_API_TEST.exe][3440]SUNSON_MakeMac, ReturnInfo = BA757401B1BD304525CE1096D098E19C
+[2015-12-01 10:52:48.058][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:52:48.058][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:52:48.074][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:52:48.074][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:52:48.074][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:52:48.183][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:52:48.183][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:52:48.183][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 10:52:48.292][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:52:48.292][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:52:48.292][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:52:48.354][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = F246AF553FE08908FD72CF6A1926416C
+[2015-12-01 10:53:12.161][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:53:12.161][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:53:12.192][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:53:12.192][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:53:12.192][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:53:12.286][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:53:12.286][XZ_F10_API_TEST.exe][3440]---数据解密运算---
+[2015-12-01 10:53:12.286][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:53:12.364][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ReturnInfo = C450DFB40D80DA08877950CE8144811E
+[2015-12-01 10:53:25.328][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:53:25.328][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:53:25.359][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:53:25.359][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:53:25.359][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:53:25.452][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:53:25.452][XZ_F10_API_TEST.exe][3440]---数据解密运算---
+[2015-12-01 10:53:25.468][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:53:25.530][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ReturnInfo = C450DFB40D80DA08877950CE8144811E
+[2015-12-01 10:53:25.998][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:53:25.998][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:53:26.030][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:53:26.030][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:53:26.030][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:53:26.123][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:53:26.123][XZ_F10_API_TEST.exe][3440]---数据解密运算---
+[2015-12-01 10:53:26.123][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:53:26.201][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ReturnInfo = C450DFB40D80DA08877950CE8144811E
+[2015-12-01 10:53:26.888][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:53:26.903][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:53:26.919][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:53:26.919][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:53:26.919][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:53:27.028][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:53:27.028][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:53:27.028][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 10:53:27.122][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:53:27.122][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:53:27.122][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:53:27.200][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = F246AF553FE08908FD72CF6A1926416C
+[2015-12-01 10:53:27.636][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:53:27.636][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:53:27.652][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:53:27.652][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:53:27.652][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:53:27.761][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:53:27.761][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:53:27.761][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 10:53:27.855][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:53:27.870][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:53:27.870][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:53:27.933][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = F246AF553FE08908FD72CF6A1926416C
+[2015-12-01 10:53:37.246][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:53:37.246][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:53:37.277][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:53:37.277][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:53:37.277][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 10:53:37.371][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:53:37.371][XZ_F10_API_TEST.exe][3440]---数据解密运算---
+[2015-12-01 10:53:37.371][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:53:37.449][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ReturnInfo = C450DFB40D80DA08877950CE8144811E
+[2015-12-01 10:54:08.710][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:54:08.710][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:54:08.742][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:54:08.742][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:54:08.742][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 10:54:08.835][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:54:08.851][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:54:08.851][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x20
+[2015-12-01 10:54:08.944][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:54:08.944][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:54:08.944][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:54:09.022][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = F246AF553FE08908FD72CF6A1926416C
+[2015-12-01 10:54:09.740][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:54:09.756][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:54:09.771][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:54:09.771][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:54:09.771][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 10:54:09.865][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:54:09.865][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:54:09.880][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x20
+[2015-12-01 10:54:09.974][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:54:09.974][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:54:09.974][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:54:10.052][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = F246AF553FE08908FD72CF6A1926416C
+[2015-12-01 10:54:10.395][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:54:10.395][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:54:10.411][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:54:10.411][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:54:10.411][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 10:54:10.520][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:54:10.520][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:54:10.520][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x20
+[2015-12-01 10:54:10.629][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:54:10.629][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:54:10.629][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:54:10.692][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = F246AF553FE08908FD72CF6A1926416C
+[2015-12-01 10:54:10.863][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:54:10.863][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:54:10.894][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:54:10.894][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:54:10.894][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 10:54:10.988][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:54:10.988][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:54:10.988][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x20
+[2015-12-01 10:54:11.097][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:54:11.097][XZ_F10_API_TEST.exe][3440]---数据加密运算---
+[2015-12-01 10:54:11.097][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:54:11.160][XZ_F10_API_TEST.exe][3440]SUNSON_EncryData, ReturnInfo = F246AF553FE08908FD72CF6A1926416C
+[2015-12-01 10:54:17.525][XZ_F10_API_TEST.exe][3440]---激活工作密钥---
+[2015-12-01 10:54:17.525][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 10:54:17.541][XZ_F10_API_TEST.exe][3440]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 10:54:17.541][XZ_F10_API_TEST.exe][3440]---设置算法处理参数---
+[2015-12-01 10:54:17.541][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 10:54:17.650][XZ_F10_API_TEST.exe][3440]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 10:54:17.650][XZ_F10_API_TEST.exe][3440]---数据解密运算---
+[2015-12-01 10:54:17.650][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 10:54:17.728][XZ_F10_API_TEST.exe][3440]SUNSON_DecryData, ReturnInfo = C450DFB40D80DA08877950CE8144811E
+[2015-12-01 15:24:47.467][XZ_F10_API_TEST.exe][4116]---打开串口---
+[2015-12-01 15:24:47.514][XZ_F10_API_TEST.exe][4116]OpenCom nPort = 1,nBaud = 9600,failure
+[2015-12-01 15:24:50.134][XZ_F10_API_TEST.exe][4116]---打开串口---
+[2015-12-01 15:24:50.134][XZ_F10_API_TEST.exe][4116]OpenCom nPort = 5,nBaud = 9600,failure
+[2015-12-01 15:24:51.086][XZ_F10_API_TEST.exe][4116]---打开串口---
+[2015-12-01 15:24:51.086][XZ_F10_API_TEST.exe][4116]OpenCom nPort = 5,nBaud = 9600,failure
+[2015-12-01 15:24:53.629][XZ_F10_API_TEST.exe][4116]---打开串口---
+[2015-12-01 15:24:54.003][XZ_F10_API_TEST.exe][4116]OpenCom nPort = 6,nBaud = 9600,success
+[2015-12-01 15:24:54.003][XZ_F10_API_TEST.exe][4116]---回送字符---
+[2015-12-01 15:24:54.003][XZ_F10_API_TEST.exe][4116]SUNSON_SendAscII,Ascii = 0x41
+[2015-12-01 15:24:54.019][XZ_F10_API_TEST.exe][4116]SUNSON_SendAscII, result = 0x41
+[2015-12-01 15:24:54.034][XZ_F10_API_TEST.exe][4116]****获取键盘模式****
+[2015-12-01 15:24:54.050][XZ_F10_API_TEST.exe][4116]SUNSON_GetEPPMode,ucEPPMode = 3031
+[2015-12-01 15:24:58.340][XZ_F10_API_TEST.exe][4116]SUNSON_ResetEPP
+[2015-12-01 15:24:58.340][XZ_F10_API_TEST.exe][4116]---键盘复位自检(不破坏密钥区)---
+[2015-12-01 15:25:01.351][XZ_F10_API_TEST.exe][4116]SUNSON_ResetEPP, result = 0x04(成功)
+[2015-12-01 15:25:01.351][XZ_F10_API_TEST.exe][4116]---读产品序列号---
+[2015-12-01 15:25:01.351][XZ_F10_API_TEST.exe][4116]SUNSON_GetSerialNumber
+[2015-12-01 15:25:01.382][XZ_F10_API_TEST.exe][4116]SUNSON_GetSerialNumber, result = F9EFB60F584A7B62
+[2015-12-01 15:25:01.382][XZ_F10_API_TEST.exe][4116]---读取版本号---
+[2015-12-01 15:25:01.382][XZ_F10_API_TEST.exe][4116]SUNSON_GetVersion
+[2015-12-01 15:25:01.460][XZ_F10_API_TEST.exe][4116]SUNSON_GetVersion, result = (0x)585A2D483630312D4631302D56
+[2015-12-01 15:25:01.460][XZ_F10_API_TEST.exe][4116]****获取键盘模式****
+[2015-12-01 15:25:01.476][XZ_F10_API_TEST.exe][4116]SUNSON_GetEPPMode,ucEPPMode = 3031
+[2015-12-01 15:25:01.491][XZ_F10_API_TEST.exe][4116]---读产品序列号---
+[2015-12-01 15:25:01.491][XZ_F10_API_TEST.exe][4116]SUNSON_GetSerialNumber
+[2015-12-01 15:25:01.522][XZ_F10_API_TEST.exe][4116]SUNSON_GetSerialNumber, result = F9EFB60F584A7B62
+[2015-12-01 15:25:01.522][XZ_F10_API_TEST.exe][4116]---读取版本号---
+[2015-12-01 15:25:01.522][XZ_F10_API_TEST.exe][4116]SUNSON_GetVersion
+[2015-12-01 15:25:01.600][XZ_F10_API_TEST.exe][4116]SUNSON_GetVersion, result = (0x)585A2D483630312D4631302D56
+[2015-12-01 15:25:01.600][XZ_F10_API_TEST.exe][4116]****获取键盘模式****
+[2015-12-01 15:25:01.632][XZ_F10_API_TEST.exe][4116]SUNSON_GetEPPMode,ucEPPMode = 3031
+[2015-12-01 15:25:14.283][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:14.283][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:25:14.377][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:14.392][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:14.392][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 15:25:14.486][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:14.486][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:14.486][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 8, key = 0123456789ABCDEF
+[2015-12-01 15:25:14.486][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:14.486][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:25:14.595][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:14.720][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:25:16.031][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:16.031][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:25:16.141][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:16.141][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:16.141][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 15:25:16.234][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:16.250][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:16.250][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 8, key = 0123456789ABCDEF
+[2015-12-01 15:25:16.250][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:16.250][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:25:16.343][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:16.484][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:25:17.201][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:17.201][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:25:17.295][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:17.311][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:17.311][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 15:25:17.404][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:17.404][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:17.404][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 8, key = 0123456789ABCDEF
+[2015-12-01 15:25:17.404][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:17.420][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:25:17.513][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:17.654][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:25:17.981][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:17.981][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:25:18.075][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:18.075][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:18.091][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 15:25:18.184][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:18.184][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:18.184][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 8, key = 0123456789ABCDEF
+[2015-12-01 15:25:18.184][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:18.184][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:25:18.293][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:18.418][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:25:18.949][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:18.949][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:25:19.058][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:19.058][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:19.058][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 15:25:19.151][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:19.151][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:19.167][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 8, key = 0123456789ABCDEF
+[2015-12-01 15:25:19.167][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:19.167][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:25:19.261][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:19.401][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:25:21.725][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:21.741][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:25:21.835][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:21.835][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:21.835][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 15:25:21.944][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:21.944][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:21.944][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 8, key = 0123456789ABCDEF
+[2015-12-01 15:25:21.944][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:25:21.944][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:25:22.037][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:25:22.178][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:25:25.267][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:25.267][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:25:25.329][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:25:31.600][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:31.600][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:25:31.663][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:25:32.489][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:32.505][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:25:32.552][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:25:33.114][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:33.114][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:25:33.176][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:25:33.301][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:25:33.301][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:25:33.348][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:26:23.542][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:23.542][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:26:23.605][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:26:26.854][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:26.854][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:26:26.916][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:26:35.532][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:35.532][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:26:35.595][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:26:37.046][XZ_F10_API_TEST.exe][4116]---读产品序列号---
+[2015-12-01 15:26:37.046][XZ_F10_API_TEST.exe][4116]SUNSON_GetSerialNumber
+[2015-12-01 15:26:37.092][XZ_F10_API_TEST.exe][4116]SUNSON_GetSerialNumber, result = F9EFB60F584A7B62
+[2015-12-01 15:26:37.092][XZ_F10_API_TEST.exe][4116]---读取版本号---
+[2015-12-01 15:26:37.092][XZ_F10_API_TEST.exe][4116]SUNSON_GetVersion
+[2015-12-01 15:26:37.170][XZ_F10_API_TEST.exe][4116]SUNSON_GetVersion, result = (0x)585A2D483630312D4631302D56
+[2015-12-01 15:26:37.170][XZ_F10_API_TEST.exe][4116]****获取键盘模式****
+[2015-12-01 15:26:37.186][XZ_F10_API_TEST.exe][4116]SUNSON_GetEPPMode,ucEPPMode = 3031
+[2015-12-01 15:26:40.353][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:40.353][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:26:40.415][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:26:42.953][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:42.953][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:26:43.013][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:26:45.560][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:45.575][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:26:45.669][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:45.669][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:45.669][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:26:45.778][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:45.778][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:45.778][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:26:45.778][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:45.778][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:26:45.872][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:46.012][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:26:47.980][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:47.980][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:26:48.074][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:48.074][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:48.074][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:26:48.183][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:48.183][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:48.183][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:26:48.183][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:48.183][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:26:48.292][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:48.417][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:26:49.415][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:49.415][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:26:49.509][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:49.509][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:49.524][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:26:49.618][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:49.618][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:49.618][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:26:49.618][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:49.618][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:26:49.727][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:49.852][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:26:51.428][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:51.428][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:26:51.474][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:26:53.658][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:53.658][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:26:53.768][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:53.768][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:53.768][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:26:53.861][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:53.877][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:26:53.877][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:26:53.877][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:26:53.877][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:26:53.970][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:26:54.111][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:28:46.278][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:28:46.278][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:28:46.371][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:28:46.371][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:28:46.387][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:28:46.481][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:28:46.481][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:28:46.481][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:28:46.481][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:28:46.481][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:28:46.590][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:28:46.717][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:28:47.809][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:28:47.809][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:28:47.918][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:28:47.918][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:28:47.918][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:28:48.012][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:28:48.012][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:28:48.012][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:28:48.028][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:28:48.028][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:28:48.121][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:28:48.262][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:28:50.648][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:28:50.648][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:28:50.711][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:28:52.692][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:28:52.692][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:28:52.801][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:28:52.801][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:28:52.801][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:28:52.910][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:28:52.910][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:28:52.910][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:28:52.910][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:28:52.910][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:28:53.004][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:28:53.144][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:29:57.716][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:29:57.716][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:29:57.810][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:29:57.810][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:29:57.810][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:29:57.919][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:29:57.919][XZ_F10_API_TEST.exe][4116]---下载工作密钥---
+[2015-12-01 15:29:57.919][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 16,WorkKeyCiphertext = (0x)10203040506070809000010203040506
+[2015-12-01 15:29:57.919][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:29:57.919][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:29:58.028][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:29:58.075][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:29:58.075][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:29:58.106][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:29:58.106][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 15:29:58.106][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 15:29:58.168][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = 1571E57EA18E01E3C03C6171354FCC63
+[2015-12-01 15:29:58.184][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey, result = 1571E57EA18E01E3(校验值)
+[2015-12-01 15:30:02.926][XZ_F10_API_TEST.exe][4116]---产生过程密钥---
+[2015-12-01 15:30:02.942][XZ_F10_API_TEST.exe][4116]SUNSON_GenerateProcessKey, pRandom = ,nRandomLen = 0
+[2015-12-01 15:30:02.958][XZ_F10_API_TEST.exe][4116]SUNSON_GenerateProcessKey, result = 0xE0(失败)
+[2015-12-01 15:30:06.140][XZ_F10_API_TEST.exe][4116]---下载工作密钥---
+[2015-12-01 15:30:06.140][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadWorkKey,nMKeyId = 0x00,nWKeyId = 0x00,ucKeyMode = 1,ucKeyValue = (0x)10203040506070809000010203040506
+[2015-12-01 15:30:06.202][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadWorkKey, result = 0xE0(失败)
+[2015-12-01 15:30:07.996][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:30:07.996][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:30:08.106][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:30:08.106][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:30:08.106][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:30:08.199][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:30:08.215][XZ_F10_API_TEST.exe][4116]---下载工作密钥---
+[2015-12-01 15:30:08.215][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 16,WorkKeyCiphertext = (0x)10203040506070809000010203040506
+[2015-12-01 15:30:08.215][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:30:08.215][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:30:08.308][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:30:08.371][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:30:08.371][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:30:08.386][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:30:08.386][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 15:30:08.402][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 15:30:08.464][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = 1571E57EA18E01E3C03C6171354FCC63
+[2015-12-01 15:30:08.464][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey, result = 1571E57EA18E01E3(校验值)
+[2015-12-01 15:30:10.102][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:30:10.102][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:30:10.196][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:30:10.196][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:30:10.212][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:30:10.305][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:30:10.305][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:30:10.305][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:30:10.305][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:30:10.305][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:30:10.414][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:30:10.539][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:30:13.612][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:30:13.628][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:30:13.644][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:31:38.763][XZ_F10_API_TEST.exe][4116]SUNSON_ResetEPP
+[2015-12-01 15:31:38.763][XZ_F10_API_TEST.exe][4116]---键盘复位自检(预置密钥区)---
+[2015-12-01 15:31:41.773][XZ_F10_API_TEST.exe][4116]SUNSON_ResetEPP, result = 0x04(成功)
+[2015-12-01 15:31:44.613][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:31:44.613][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:31:44.675][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:31:47.686][XZ_F10_API_TEST.exe][4116]SUNSON_ResetEPP
+[2015-12-01 15:31:47.686][XZ_F10_API_TEST.exe][4116]---键盘复位自检(预置密钥区)---
+[2015-12-01 15:31:50.697][XZ_F10_API_TEST.exe][4116]SUNSON_ResetEPP, result = 0x04(成功)
+[2015-12-01 15:31:52.959][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:31:52.959][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:31:53.021][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:31:54.534][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:31:54.534][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:31:54.628][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:31:54.628][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:31:54.628][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:31:54.737][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:31:54.737][XZ_F10_API_TEST.exe][4116]---下载工作密钥---
+[2015-12-01 15:31:54.737][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 16,WorkKeyCiphertext = (0x)10203040506070809000010203040506
+[2015-12-01 15:31:54.737][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:31:54.737][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:31:54.846][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:31:54.893][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:31:54.893][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:31:54.924][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:31:54.924][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 15:31:54.924][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 15:31:55.002][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D597413E767D3C84B341723C0769192A
+[2015-12-01 15:31:55.002][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey, result = D597413E767D3C84(校验值)
+[2015-12-01 15:31:56.297][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:31:56.297][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey,nKeyId = 0x00,nDecKeyId = 0xFF,ucKeyMode = 0x01
+[2015-12-01 15:31:56.359][XZ_F10_API_TEST.exe][4116]SUNSON_DownloadMasterKey, ReturnInfo = 0xE0(失败)
+[2015-12-01 15:32:17.706][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:32:17.706][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:32:17.815][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:32:17.815][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:32:17.815][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:32:17.909][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:32:17.909][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:32:17.909][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:32:17.909][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:32:17.925][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:32:18.018][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:32:18.159][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:32:21.684][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:32:21.684][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:32:21.778][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:32:21.778][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:32:21.778][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:32:21.887][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:32:21.887][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:32:21.887][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:32:21.887][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:32:21.887][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:32:21.996][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:32:22.121][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:32:22.792][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:32:22.792][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:32:22.885][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:32:22.901][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:32:22.901][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:32:22.995][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:32:22.995][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:32:22.995][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:32:22.995][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:32:22.995][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:32:23.104][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:32:23.229][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:43:43.959][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:43:43.959][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:43:45.784][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0xF7(失败)
+[2015-12-01 15:43:45.784][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:43:45.784][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:43:47.612][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0xF7(失败)
+[2015-12-01 15:43:47.612][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:43:47.612][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:43:49.437][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0xF7(失败)
+[2015-12-01 15:43:49.437][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:43:49.437][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:43:51.262][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0xF7(失败)
+[2015-12-01 15:43:53.961][XZ_F10_API_TEST.exe][4116]---关闭串口---
+[2015-12-01 15:43:53.961][XZ_F10_API_TEST.exe][4116]CloseCom
+[2015-12-01 15:43:54.710][XZ_F10_API_TEST.exe][4116]---打开串口---
+[2015-12-01 15:43:54.804][XZ_F10_API_TEST.exe][4116]OpenCom nPort = 6,nBaud = 9600,success
+[2015-12-01 15:43:54.804][XZ_F10_API_TEST.exe][4116]---回送字符---
+[2015-12-01 15:43:54.804][XZ_F10_API_TEST.exe][4116]SUNSON_SendAscII,Ascii = 0x41
+[2015-12-01 15:43:56.629][XZ_F10_API_TEST.exe][4116]SUNSON_SendAscII, result = 0xF7(失败)
+[2015-12-01 15:43:56.629][XZ_F10_API_TEST.exe][4116]---关闭串口---
+[2015-12-01 15:43:56.629][XZ_F10_API_TEST.exe][4116]CloseCom
+[2015-12-01 15:44:09.046][XZ_F10_API_TEST.exe][4116]---打开串口---
+[2015-12-01 15:44:09.312][XZ_F10_API_TEST.exe][4116]OpenCom nPort = 6,nBaud = 9600,success
+[2015-12-01 15:44:09.312][XZ_F10_API_TEST.exe][4116]---回送字符---
+[2015-12-01 15:44:09.312][XZ_F10_API_TEST.exe][4116]SUNSON_SendAscII,Ascii = 0x41
+[2015-12-01 15:44:09.327][XZ_F10_API_TEST.exe][4116]SUNSON_SendAscII, result = 0x41
+[2015-12-01 15:44:09.343][XZ_F10_API_TEST.exe][4116]****获取键盘模式****
+[2015-12-01 15:44:09.374][XZ_F10_API_TEST.exe][4116]SUNSON_GetEPPMode,ucEPPMode = 3031
+[2015-12-01 15:44:10.908][XZ_F10_API_TEST.exe][4116]SUNSON_ResetEPP
+[2015-12-01 15:44:10.908][XZ_F10_API_TEST.exe][4116]---键盘复位自检(预置密钥区)---
+[2015-12-01 15:44:13.919][XZ_F10_API_TEST.exe][4116]SUNSON_ResetEPP, result = 0x04(成功)
+[2015-12-01 15:44:15.963][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:44:15.963][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:44:16.072][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:44:16.072][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:44:16.072][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:44:16.166][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:44:16.166][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 15:44:16.182][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 15:44:16.182][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:44:16.182][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:44:16.275][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:44:16.416][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 15:44:17.586][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:44:17.586][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:44:17.695][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:44:17.695][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:44:17.695][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 15:44:17.804][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:44:17.804][XZ_F10_API_TEST.exe][4116]---下载工作密钥---
+[2015-12-01 15:44:17.804][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 16,WorkKeyCiphertext = (0x)10203040506070809000010203040506
+[2015-12-01 15:44:17.804][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:44:17.804][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:44:17.898][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:44:17.960][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:44:17.960][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:44:17.976][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:44:17.991][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 15:44:17.991][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 15:44:18.054][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = 1571E57EA18E01E3C03C6171354FCC63
+[2015-12-01 15:44:18.054][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey, result = 1571E57EA18E01E3(校验值)
+[2015-12-01 15:45:47.060][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:45:47.060][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:45:47.075][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:45:47.075][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:45:47.075][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 15:45:47.184][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:45:47.184][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:45:47.184][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:45:47.278][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:45:47.294][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:45:47.294][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 15:45:47.387][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:45:47.387][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:45:47.387][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x10
+[2015-12-01 15:45:47.496][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:45:47.496][XZ_F10_API_TEST.exe][4116]---下载账号---
+[2015-12-01 15:45:47.496][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber,ucCardNumber = 990123456789
+[2015-12-01 15:45:47.543][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber, ReturnInfo = (0x)04(成功)
+[2015-12-01 15:45:47.543][XZ_F10_API_TEST.exe][4116]---打开键盘仿真---
+[2015-12-01 15:45:47.543][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 15:45:47.559][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 15:45:47.559][XZ_F10_API_TEST.exe][4116]---启动密码键盘加密---
+[2015-12-01 15:45:47.559][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 15:45:47.590][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 15:45:49.602][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:45:49.602][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:45:49.992][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:45:49.992][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:45:50.351][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:45:50.351][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:45:50.835][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:45:50.850][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:45:51.194][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:45:51.194][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:45:51.506][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:45:51.506][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:45:51.521][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:45:51.521][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 15:45:51.521][XZ_F10_API_TEST.exe][4116]---取PIN密文---
+[2015-12-01 15:45:51.521][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin
+[2015-12-01 15:45:51.584][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin, ReturnInfo = A7F1DDFC508C52FB
+[2015-12-01 15:45:51.599][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 15:45:51.599][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 16,SourceData = (0x)A7F1DDFC508C52FB0EA2D6A8A167D18D
+[2015-12-01 15:45:51.677][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 06123456FFFFFFFFFFFF66FEDCBA9876
+[2015-12-01 15:47:02.788][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:47:02.788][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:47:02.803][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:47:02.803][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:47:02.803][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 15:47:02.912][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:47:02.912][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:47:02.912][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:47:03.022][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:47:03.022][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:47:03.022][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 15:47:03.115][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:47:03.115][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:47:03.115][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x10
+[2015-12-01 15:47:03.224][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:47:03.224][XZ_F10_API_TEST.exe][4116]---下载账号---
+[2015-12-01 15:47:03.224][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber,ucCardNumber = 990123456711
+[2015-12-01 15:47:03.271][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber, ReturnInfo = (0x)04(成功)
+[2015-12-01 15:47:03.271][XZ_F10_API_TEST.exe][4116]---打开键盘仿真---
+[2015-12-01 15:47:03.271][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 15:47:03.287][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 15:47:03.287][XZ_F10_API_TEST.exe][4116]---启动密码键盘加密---
+[2015-12-01 15:47:03.287][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 15:47:03.318][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 15:47:05.302][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:47:05.302][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:47:05.744][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:47:05.744][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:47:06.102][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:47:06.118][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:47:06.508][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:47:06.508][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:47:06.820][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:47:06.820][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:47:07.148][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:47:07.148][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:47:07.148][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:47:07.163][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 15:47:07.163][XZ_F10_API_TEST.exe][4116]---取PIN密文---
+[2015-12-01 15:47:07.163][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin
+[2015-12-01 15:47:07.226][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin, ReturnInfo = 22B0634822DA35A5
+[2015-12-01 15:47:07.226][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 15:47:07.241][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 16,SourceData = (0x)22B0634822DA35A5C6285214691491E4
+[2015-12-01 15:47:07.319][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 06123456FFFFFFFFFFFF66FEDCBA98EE
+[2015-12-01 15:47:57.932][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:47:57.947][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:47:57.963][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:47:57.963][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:47:57.963][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 15:47:58.072][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:47:58.072][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:47:58.072][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:47:58.166][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:47:58.166][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:47:58.181][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 15:47:58.275][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:47:58.275][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:47:58.275][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x10
+[2015-12-01 15:47:58.368][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:47:58.384][XZ_F10_API_TEST.exe][4116]---下载账号---
+[2015-12-01 15:47:58.384][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber,ucCardNumber = 012345678901
+[2015-12-01 15:47:58.415][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber, ReturnInfo = (0x)04(成功)
+[2015-12-01 15:47:58.415][XZ_F10_API_TEST.exe][4116]---打开键盘仿真---
+[2015-12-01 15:47:58.415][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 15:47:58.446][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 15:47:58.446][XZ_F10_API_TEST.exe][4116]---启动密码键盘加密---
+[2015-12-01 15:47:58.446][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 15:47:58.478][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 15:48:00.365][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:00.365][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:00.662][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:00.662][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:00.963][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:00.963][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:01.759][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:01.759][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:02.024][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:02.024][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:02.258][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:02.273][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:02.273][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:02.273][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 15:48:02.273][XZ_F10_API_TEST.exe][4116]---取PIN密文---
+[2015-12-01 15:48:02.273][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin
+[2015-12-01 15:48:02.351][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin, ReturnInfo = 9B5025C1397EABD6
+[2015-12-01 15:48:02.351][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 15:48:02.351][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 16,SourceData = (0x)9B5025C1397EABD63823C325864C8EDB
+[2015-12-01 15:48:02.445][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 06123456FFFFFFFFFFFFFEDCBA9876FE
+[2015-12-01 15:48:31.895][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:48:31.895][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:48:31.910][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:48:31.926][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:48:31.926][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 15:48:32.020][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:48:32.020][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:48:32.020][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:48:32.129][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:48:32.129][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:48:32.129][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 15:48:32.222][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:48:32.238][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:48:32.238][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x10
+[2015-12-01 15:48:32.332][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:48:32.332][XZ_F10_API_TEST.exe][4116]---下载账号---
+[2015-12-01 15:48:32.332][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber,ucCardNumber = 012345678901
+[2015-12-01 15:48:32.378][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber, ReturnInfo = (0x)04(成功)
+[2015-12-01 15:48:32.378][XZ_F10_API_TEST.exe][4116]---打开键盘仿真---
+[2015-12-01 15:48:32.378][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 15:48:32.394][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 15:48:32.394][XZ_F10_API_TEST.exe][4116]---启动密码键盘加密---
+[2015-12-01 15:48:32.394][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 15:48:32.425][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 15:48:34.531][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:34.531][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:34.859][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:34.859][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:35.186][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:35.186][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:35.748][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:35.748][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:36.076][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:36.076][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:36.434][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:36.450][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:48:36.450][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:48:36.450][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 15:48:36.450][XZ_F10_API_TEST.exe][4116]---取PIN密文---
+[2015-12-01 15:48:36.450][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin
+[2015-12-01 15:48:36.512][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin, ReturnInfo = 9B5025C1397EABD6
+[2015-12-01 15:48:36.528][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 15:48:36.528][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 16,SourceData = (0x)9B5025C1397EABD63823C325864C8EDB
+[2015-12-01 15:48:36.606][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 06123456FFFFFFFFFFFFFEDCBA9876FE
+[2015-12-01 15:49:06.891][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:49:06.891][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:49:06.922][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:49:06.922][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:49:06.922][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 15:49:07.016][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:49:07.031][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:49:07.031][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:49:07.125][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:49:07.125][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:49:07.125][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 15:49:07.234][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:49:07.234][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:49:07.234][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x10
+[2015-12-01 15:49:07.328][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:49:07.343][XZ_F10_API_TEST.exe][4116]---下载账号---
+[2015-12-01 15:49:07.343][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber,ucCardNumber = 012345678901
+[2015-12-01 15:49:07.374][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber, ReturnInfo = (0x)04(成功)
+[2015-12-01 15:49:07.374][XZ_F10_API_TEST.exe][4116]---打开键盘仿真---
+[2015-12-01 15:49:07.390][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 15:49:07.406][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 15:49:07.406][XZ_F10_API_TEST.exe][4116]---启动密码键盘加密---
+[2015-12-01 15:49:07.406][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 15:49:07.437][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 15:49:09.449][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:49:09.449][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:49:09.714][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:49:09.714][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:49:09.964][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:49:09.964][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:49:10.307][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:49:10.323][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:49:10.916][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:49:10.916][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:49:11.196][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:49:11.196][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:49:11.196][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:49:11.212][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 15:49:11.212][XZ_F10_API_TEST.exe][4116]---取PIN密文---
+[2015-12-01 15:49:11.212][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin
+[2015-12-01 15:49:11.274][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin, ReturnInfo = 9B5025C1397EABD6
+[2015-12-01 15:49:11.274][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 15:49:11.274][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 16,SourceData = (0x)9B5025C1397EABD63823C325864C8EDB
+[2015-12-01 15:49:11.368][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 06123456FFFFFFFFFFFFFEDCBA9876FE
+[2015-12-01 15:49:35.571][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:49:35.571][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 15:49:35.664][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:03.811][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:03.811][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:51:03.904][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:05.230][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:05.230][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:51:05.324][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:06.198][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:06.198][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:51:06.307][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:06.603][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:06.603][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:51:06.712][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:06.806][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:06.806][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:51:06.900][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:06.993][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:06.993][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:51:07.102][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:07.180][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:07.180][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:51:07.274][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:10.425][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 15:51:10.441][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 15:51:10.456][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 15:51:10.456][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:10.456][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 15:51:10.566][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:10.566][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:10.566][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 15:51:10.659][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:10.659][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:10.659][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 15:51:10.768][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:10.768][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:51:10.768][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x10
+[2015-12-01 15:51:10.862][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 15:51:10.862][XZ_F10_API_TEST.exe][4116]---下载账号---
+[2015-12-01 15:51:10.878][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber,ucCardNumber = 012345678901
+[2015-12-01 15:51:10.909][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber, ReturnInfo = (0x)04(成功)
+[2015-12-01 15:51:10.909][XZ_F10_API_TEST.exe][4116]---打开键盘仿真---
+[2015-12-01 15:51:10.924][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 15:51:10.940][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 15:51:10.940][XZ_F10_API_TEST.exe][4116]---启动密码键盘加密---
+[2015-12-01 15:51:10.940][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 15:51:10.971][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 15:51:12.718][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:51:12.718][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:51:12.999][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:51:12.999][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:51:13.264][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:51:13.264][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:51:13.654][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:51:13.654][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:51:13.935][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:51:13.935][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:51:14.216][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:51:14.216][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 15:51:14.232][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 15:51:14.232][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 15:51:14.232][XZ_F10_API_TEST.exe][4116]---取PIN密文---
+[2015-12-01 15:51:14.232][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin
+[2015-12-01 15:51:14.294][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin, ReturnInfo = 9B5025C1397EABD6
+[2015-12-01 15:51:14.310][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 15:51:14.310][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 16,SourceData = (0x)9B5025C1397EABD63823C325864C8EDB
+[2015-12-01 15:51:14.388][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 06123456FFFFFFFFFFFFFEDCBA9876FE
+[2015-12-01 15:52:46.842][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 15:52:46.842][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 15:52:46.936][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:14:03.471][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:14:03.471][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 16:14:05.296][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0xF7(失败)
+[2015-12-01 16:15:03.638][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:15:03.638][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:15:05.463][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0xF7(失败)
+[2015-12-01 16:15:07.959][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:15:07.959][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:15:09.785][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0xF7(失败)
+[2015-12-01 16:15:14.215][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:15:14.215][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:15:16.040][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0xF7(失败)
+[2015-12-01 16:15:57.958][XZ_F10_API_TEST.exe][4116]---关闭串口---
+[2015-12-01 16:15:57.958][XZ_F10_API_TEST.exe][4116]CloseCom
+[2015-12-01 16:15:58.691][XZ_F10_API_TEST.exe][4116]---打开串口---
+[2015-12-01 16:15:58.785][XZ_F10_API_TEST.exe][4116]OpenCom nPort = 6,nBaud = 9600,success
+[2015-12-01 16:15:58.785][XZ_F10_API_TEST.exe][4116]---回送字符---
+[2015-12-01 16:15:58.785][XZ_F10_API_TEST.exe][4116]SUNSON_SendAscII,Ascii = 0x41
+[2015-12-01 16:15:58.800][XZ_F10_API_TEST.exe][4116]SUNSON_SendAscII, result = 0x41
+[2015-12-01 16:15:58.816][XZ_F10_API_TEST.exe][4116]****获取键盘模式****
+[2015-12-01 16:15:58.847][XZ_F10_API_TEST.exe][4116]SUNSON_GetEPPMode,ucEPPMode = 3031
+[2015-12-01 16:16:01.296][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:01.296][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 16:16:01.390][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:01.406][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:01.406][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 16:16:01.499][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:01.499][XZ_F10_API_TEST.exe][4116]---下载主密钥---
+[2015-12-01 16:16:01.499][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 16:16:01.499][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:01.515][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 16:16:01.608][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:01.749][XZ_F10_API_TEST.exe][4116]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 16:16:02.201][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:02.201][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 16:16:02.295][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:02.310][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:02.310][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 16:16:02.404][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:02.404][XZ_F10_API_TEST.exe][4116]---下载工作密钥---
+[2015-12-01 16:16:02.404][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 16,WorkKeyCiphertext = (0x)10203040506070809000010203040506
+[2015-12-01 16:16:02.404][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:02.420][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 16:16:02.513][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:02.576][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:16:02.576][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:16:02.591][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:16:02.591][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:16:02.591][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 16:16:02.669][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = 1571E57EA18E01E3C03C6171354FCC63
+[2015-12-01 16:16:02.669][XZ_F10_API_TEST.exe][4116]SUNSON_LoadWorkKey, result = 1571E57EA18E01E3(校验值)
+[2015-12-01 16:16:36.062][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:16:36.062][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:16:36.077][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:16:36.077][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:36.077][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 16:16:36.187][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:36.187][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:36.187][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:16:36.280][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:36.280][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:36.296][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 16:16:36.389][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:36.389][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:16:36.389][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x10
+[2015-12-01 16:16:36.499][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:16:36.499][XZ_F10_API_TEST.exe][4116]---下载账号---
+[2015-12-01 16:16:36.499][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber,ucCardNumber = 012345678901
+[2015-12-01 16:16:36.530][XZ_F10_API_TEST.exe][4116]SUNSON_LoadCardNumber, ReturnInfo = (0x)04(成功)
+[2015-12-01 16:16:36.545][XZ_F10_API_TEST.exe][4116]---打开键盘仿真---
+[2015-12-01 16:16:36.545][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 16:16:36.561][XZ_F10_API_TEST.exe][4116]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 16:16:36.561][XZ_F10_API_TEST.exe][4116]---启动密码键盘加密---
+[2015-12-01 16:16:36.561][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 16:16:36.592][XZ_F10_API_TEST.exe][4116]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 16:16:39.400][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 16:16:39.400][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:16:39.759][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 16:16:39.759][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:16:40.055][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 16:16:40.071][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:16:40.555][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 16:16:40.555][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:16:41.116][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 16:16:41.116][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:16:41.506][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 16:16:41.506][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:16:41.506][XZ_F10_API_TEST.exe][4116]---获取按下的按键键值---
+[2015-12-01 16:16:41.506][XZ_F10_API_TEST.exe][4116]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 16:16:41.506][XZ_F10_API_TEST.exe][4116]---取PIN密文---
+[2015-12-01 16:16:41.506][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin
+[2015-12-01 16:16:41.569][XZ_F10_API_TEST.exe][4116]SUNSON_ReadCypherPin, ReturnInfo = 9B5025C1397EABD6
+[2015-12-01 16:16:41.584][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:16:41.584][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 16,SourceData = (0x)9B5025C1397EABD63823C325864C8EDB
+[2015-12-01 16:16:41.662][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 06123456FFFFFFFFFFFFFEDCBA9876FE
+[2015-12-01 16:17:05.335][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:05.335][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:05.350][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:05.350][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:05.350][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:17:05.459][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:05.459][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:05.459][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 16:17:05.553][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:05.569][XZ_F10_API_TEST.exe][4116]---数据mac运算---
+[2015-12-01 16:17:05.569][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac nMacDataLen = 8,ucMacData = (0x)3132333435363738
+[2015-12-01 16:17:05.631][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:19.251][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:19.251][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:19.266][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:19.282][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:19.282][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:17:19.376][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:19.376][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:19.376][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 16:17:19.485][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:19.485][XZ_F10_API_TEST.exe][4116]---数据mac运算---
+[2015-12-01 16:17:19.485][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac nMacDataLen = 8,ucMacData = (0x)3132333435363738
+[2015-12-01 16:17:19.563][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:20.998][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:20.998][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:21.014][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:21.014][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:21.014][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:17:21.123][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:21.123][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:21.123][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 16:17:21.232][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:21.232][XZ_F10_API_TEST.exe][4116]---数据mac运算---
+[2015-12-01 16:17:21.232][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac nMacDataLen = 8,ucMacData = (0x)3132333435363738
+[2015-12-01 16:17:21.294][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:26.323][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:26.323][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:26.338][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:26.338][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:26.354][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:17:26.447][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:26.447][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:26.447][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 16:17:26.541][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:26.557][XZ_F10_API_TEST.exe][4116]---数据mac运算---
+[2015-12-01 16:17:26.557][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac nMacDataLen = 8,ucMacData = (0x)3132333435363738
+[2015-12-01 16:17:26.619][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:27.680][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:27.680][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:27.695][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:27.695][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:27.695][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:17:27.805][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:27.805][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:27.805][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 16:17:27.898][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:27.898][XZ_F10_API_TEST.exe][4116]---数据mac运算---
+[2015-12-01 16:17:27.898][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac nMacDataLen = 8,ucMacData = (0x)3132333435363738
+[2015-12-01 16:17:27.976][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:32.282][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:32.282][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:32.297][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:32.297][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:32.297][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:17:32.407][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:32.407][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:32.407][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 16:17:32.500][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:32.500][XZ_F10_API_TEST.exe][4116]---数据mac运算---
+[2015-12-01 16:17:32.516][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac nMacDataLen = 8,ucMacData = (0x)3132333435363738
+[2015-12-01 16:17:32.578][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:37.461][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:37.461][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:37.477][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:37.477][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:37.477][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:17:37.586][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:37.586][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:37.586][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 16:17:37.695][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:37.695][XZ_F10_API_TEST.exe][4116]---数据mac运算---
+[2015-12-01 16:17:37.695][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac nMacDataLen = 8,ucMacData = (0x)3132333435363738
+[2015-12-01 16:17:37.757][XZ_F10_API_TEST.exe][4116]SUNSON_MakeMac, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:42.890][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:42.905][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:42.921][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:42.921][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:42.921][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:17:43.030][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:43.030][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:43.030][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 16:17:43.124][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:43.124][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:17:43.139][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:17:43.202][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:55.666][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:55.666][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:55.681][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:55.681][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:55.681][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:17:55.790][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:55.790][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:55.790][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x20
+[2015-12-01 16:17:55.884][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:55.884][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:17:55.884][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:17:55.962][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:57.803][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:57.803][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:57.834][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:57.834][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:57.834][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:17:57.928][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:57.928][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:57.928][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x20
+[2015-12-01 16:17:58.037][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:58.037][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:17:58.037][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:17:58.115][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:17:58.458][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:17:58.458][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:17:58.489][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:17:58.489][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:58.489][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:17:58.583][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:58.583][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:17:58.598][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x20
+[2015-12-01 16:17:58.692][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:17:58.692][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:17:58.692][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:17:58.770][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:18:00.127][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:18:00.127][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:18:00.143][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:18:00.158][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:18:00.158][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:18:00.252][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:18:00.252][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:18:00.252][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 16:18:00.361][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:18:00.361][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:18:00.361][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:18:00.439][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:18:00.829][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:18:00.845][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:18:00.860][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:18:00.860][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:18:00.860][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:18:00.954][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:18:00.970][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:18:00.970][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 16:18:01.063][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:18:01.063][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:18:01.063][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:18:01.141][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:18:18.349][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:18:18.349][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:18:18.380][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:18:18.380][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:18:18.380][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:18:18.474][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:18:18.474][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:18:18.474][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:18:18.552][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:18:28.104][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:18:28.104][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:18:28.120][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:18:28.135][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:18:28.135][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:18:28.229][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:18:28.229][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:18:28.229][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:18:28.307][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:18:28.884][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:18:28.884][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:18:28.900][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:18:28.900][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:18:28.900][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:18:29.009][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:18:29.009][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:18:29.009][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:18:29.087][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:18:29.321][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:18:29.337][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:18:29.352][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:18:29.352][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:18:29.352][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:18:29.461][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:18:29.461][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:18:29.461][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:18:29.524][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:18:30.039][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:18:30.039][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:18:30.070][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:18:30.070][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:18:30.070][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:18:30.163][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:18:30.179][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:18:30.179][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:18:30.241][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:22:03.648][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:03.663][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:03.679][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:03.679][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:03.679][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:03.788][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:03.788][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:22:03.788][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:03.851][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:22:04.818][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:04.818][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:04.833][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:04.833][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:04.833][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:04.943][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:04.943][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:04.943][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 16:22:05.036][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:05.052][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:22:05.052][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:05.114][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:22:05.473][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:05.473][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:05.489][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:05.489][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:05.504][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:05.598][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:05.598][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:05.598][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 16:22:05.707][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:05.707][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:22:05.707][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:05.769][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:22:08.000][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:08.000][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:08.016][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:08.016][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:08.016][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:08.125][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:08.125][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:08.125][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x11
+[2015-12-01 16:22:08.234][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:08.234][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:22:08.234][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:08.297][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:22:08.687][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:08.687][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:08.702][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:08.702][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:08.702][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:08.811][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:08.811][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:08.811][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x11
+[2015-12-01 16:22:08.921][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:08.921][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:22:08.921][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:08.983][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:22:09.529][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:09.529][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:09.560][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:09.560][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:09.560][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:09.654][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:09.654][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:22:09.654][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:09.732][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:22:10.605][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:10.605][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:10.637][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:10.637][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:10.637][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:10.730][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:10.746][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:10.746][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x11
+[2015-12-01 16:22:10.839][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:10.839][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:22:10.839][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:10.917][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:22:11.557][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:11.557][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:11.573][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:11.588][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:11.588][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:11.682][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:11.682][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:22:11.682][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:11.760][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:22:15.083][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:15.083][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:15.114][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:15.114][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:15.114][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:15.207][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:15.207][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:15.223][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x11
+[2015-12-01 16:22:15.317][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:15.317][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:22:15.317][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:15.395][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:22:18.032][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:18.048][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:18.063][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:18.063][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:18.063][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:18.172][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:18.172][XZ_F10_API_TEST.exe][4116]---数据解密运算---
+[2015-12-01 16:22:18.172][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:18.235][XZ_F10_API_TEST.exe][4116]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:22:18.750][XZ_F10_API_TEST.exe][4116]---激活工作密钥---
+[2015-12-01 16:22:18.750][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:22:18.765][XZ_F10_API_TEST.exe][4116]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:22:18.765][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:18.765][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:22:18.874][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:18.874][XZ_F10_API_TEST.exe][4116]---设置算法处理参数---
+[2015-12-01 16:22:18.874][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 16:22:18.968][XZ_F10_API_TEST.exe][4116]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:22:18.999][XZ_F10_API_TEST.exe][4116]---数据加密运算---
+[2015-12-01 16:22:18.999][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:22:19.062][XZ_F10_API_TEST.exe][4116]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:28:00.051][XZ_F10_API_TEST.exe][8140]---打开串口---
+[2015-12-01 16:28:00.051][XZ_F10_API_TEST.exe][8140]OpenCom nPort = 1,nBaud = 9600,failure
+[2015-12-01 16:28:04.949][XZ_F10_API_TEST.exe][8140]---打开串口---
+[2015-12-01 16:28:05.324][XZ_F10_API_TEST.exe][8140]OpenCom nPort = 6,nBaud = 9600,success
+[2015-12-01 16:28:05.324][XZ_F10_API_TEST.exe][8140]---回送字符---
+[2015-12-01 16:28:05.324][XZ_F10_API_TEST.exe][8140]SUNSON_SendAscII,Ascii = 0x41
+[2015-12-01 16:28:05.339][XZ_F10_API_TEST.exe][8140]SUNSON_SendAscII, result = 0x41
+[2015-12-01 16:28:05.355][XZ_F10_API_TEST.exe][8140]****获取键盘模式****
+[2015-12-01 16:28:05.371][XZ_F10_API_TEST.exe][8140]SUNSON_GetEPPMode,ucEPPMode = 3031
+[2015-12-01 16:28:13.750][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:28:13.750][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 16:28:13.844][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:28:13.860][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:28:13.860][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x20
+[2015-12-01 16:28:13.953][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:28:13.953][XZ_F10_API_TEST.exe][8140]---下载主密钥---
+[2015-12-01 16:28:13.953][XZ_F10_API_TEST.exe][8140]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 8, key = 0123456789ABCDEF
+[2015-12-01 16:28:13.953][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:28:13.953][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 16:28:14.062][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:28:14.187][XZ_F10_API_TEST.exe][8140]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 16:29:01.038][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:01.038][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 16:29:01.131][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:01.147][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:01.147][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 16:29:01.241][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:01.241][XZ_F10_API_TEST.exe][8140]---下载主密钥---
+[2015-12-01 16:29:01.241][XZ_F10_API_TEST.exe][8140]SUNSON_LoadMasterKey, ucMKeyId = 0x00,ucMKeyLen = 16, key = 01020304050607080900010203040506
+[2015-12-01 16:29:01.241][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:01.241][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 16:29:01.350][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:01.475][XZ_F10_API_TEST.exe][8140]SUNSON_LoadMasterKey, ReturnInfo = 0x04(成功)
+[2015-12-01 16:29:27.920][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:27.920][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 16:29:28.029][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:28.029][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:28.029][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x04
+[2015-12-01 16:29:28.123][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:28.123][XZ_F10_API_TEST.exe][8140]---下载工作密钥---
+[2015-12-01 16:29:28.139][XZ_F10_API_TEST.exe][8140]SUNSON_LoadWorkKey,ucMKeyId = 0x00,ucWKeyId = 0x00,ucWKeyLen = 16,WorkKeyCiphertext = (0x)10203040506070809000010203040506
+[2015-12-01 16:29:28.139][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:28.139][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x00,FPara = 0x30
+[2015-12-01 16:29:28.232][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:28.295][XZ_F10_API_TEST.exe][8140]---激活工作密钥---
+[2015-12-01 16:29:28.295][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:29:28.310][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:29:28.310][XZ_F10_API_TEST.exe][8140]---数据加密运算---
+[2015-12-01 16:29:28.310][XZ_F10_API_TEST.exe][8140]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)0000000000000000
+[2015-12-01 16:29:28.388][XZ_F10_API_TEST.exe][8140]SUNSON_EncryData, ReturnInfo = 1571E57EA18E01E3C03C6171354FCC63
+[2015-12-01 16:29:28.388][XZ_F10_API_TEST.exe][8140]SUNSON_LoadWorkKey, result = 1571E57EA18E01E3(校验值)
+[2015-12-01 16:29:29.341][XZ_F10_API_TEST.exe][8140]---激活工作密钥---
+[2015-12-01 16:29:29.342][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:29:29.363][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:29:53.659][XZ_F10_API_TEST.exe][8140]---激活工作密钥---
+[2015-12-01 16:29:53.675][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:29:53.690][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:29:53.690][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:53.690][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x02,FPara = 0x00
+[2015-12-01 16:29:53.800][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:53.800][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:53.800][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x30
+[2015-12-01 16:29:53.893][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:53.893][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:53.893][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x05,FPara = 0x01
+[2015-12-01 16:29:54.002][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:54.002][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:29:54.002][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x04,FPara = 0x10
+[2015-12-01 16:29:54.112][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:29:54.112][XZ_F10_API_TEST.exe][8140]---下载账号---
+[2015-12-01 16:29:54.112][XZ_F10_API_TEST.exe][8140]SUNSON_LoadCardNumber,ucCardNumber = 012345678901
+[2015-12-01 16:29:54.158][XZ_F10_API_TEST.exe][8140]SUNSON_LoadCardNumber, ReturnInfo = (0x)04(成功)
+[2015-12-01 16:29:54.158][XZ_F10_API_TEST.exe][8140]---打开键盘仿真---
+[2015-12-01 16:29:54.158][XZ_F10_API_TEST.exe][8140]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x02
+[2015-12-01 16:29:54.174][XZ_F10_API_TEST.exe][8140]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2015-12-01 16:29:54.174][XZ_F10_API_TEST.exe][8140]---启动密码键盘加密---
+[2015-12-01 16:29:54.174][XZ_F10_API_TEST.exe][8140]SUNSON_StartEpp, ucPinLen = 6,AlgorithmMode = 0x00,timeout = 20
+[2015-12-01 16:29:54.205][XZ_F10_API_TEST.exe][8140]SUNSON_StartEpp, ReturnInfo = 0x04(成功)
+[2015-12-01 16:29:55.531][XZ_F10_API_TEST.exe][8140]---获取按下的按键键值---
+[2015-12-01 16:29:55.531][XZ_F10_API_TEST.exe][8140]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:29:55.984][XZ_F10_API_TEST.exe][8140]---获取按下的按键键值---
+[2015-12-01 16:29:55.984][XZ_F10_API_TEST.exe][8140]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:29:56.327][XZ_F10_API_TEST.exe][8140]---获取按下的按键键值---
+[2015-12-01 16:29:56.327][XZ_F10_API_TEST.exe][8140]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:29:56.717][XZ_F10_API_TEST.exe][8140]---获取按下的按键键值---
+[2015-12-01 16:29:56.717][XZ_F10_API_TEST.exe][8140]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:29:57.044][XZ_F10_API_TEST.exe][8140]---获取按下的按键键值---
+[2015-12-01 16:29:57.044][XZ_F10_API_TEST.exe][8140]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:29:57.325][XZ_F10_API_TEST.exe][8140]---获取按下的按键键值---
+[2015-12-01 16:29:57.325][XZ_F10_API_TEST.exe][8140]SUNSON_ScanKeyPress success, ucKeyValue = 42
+[2015-12-01 16:29:57.325][XZ_F10_API_TEST.exe][8140]---获取按下的按键键值---
+[2015-12-01 16:29:57.325][XZ_F10_API_TEST.exe][8140]SUNSON_ScanKeyPress success, ucKeyValue = 13
+[2015-12-01 16:29:57.341][XZ_F10_API_TEST.exe][8140]---取PIN密文---
+[2015-12-01 16:29:57.341][XZ_F10_API_TEST.exe][8140]SUNSON_ReadCypherPin
+[2015-12-01 16:29:57.403][XZ_F10_API_TEST.exe][8140]SUNSON_ReadCypherPin, ReturnInfo = 9B5025C1397EABD6
+[2015-12-01 16:29:57.403][XZ_F10_API_TEST.exe][8140]---数据解密运算---
+[2015-12-01 16:29:57.403][XZ_F10_API_TEST.exe][8140]SUNSON_DecryData, ucDataLen = 16,SourceData = (0x)9B5025C1397EABD63823C325864C8EDB
+[2015-12-01 16:29:57.497][XZ_F10_API_TEST.exe][8140]SUNSON_DecryData, ReturnInfo = 06123456FFFFFFFFFFFFFEDCBA9876FE
+[2015-12-01 16:30:15.364][XZ_F10_API_TEST.exe][8140]---激活工作密钥---
+[2015-12-01 16:30:15.364][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:30:15.379][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:30:15.379][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:30:15.379][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:30:15.489][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:30:15.489][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:30:15.489][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 16:30:15.582][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:30:15.582][XZ_F10_API_TEST.exe][8140]---数据mac运算---
+[2015-12-01 16:30:15.582][XZ_F10_API_TEST.exe][8140]SUNSON_MakeMac nMacDataLen = 8,ucMacData = (0x)3132333435363738
+[2015-12-01 16:30:15.660][XZ_F10_API_TEST.exe][8140]SUNSON_MakeMac, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:31:28.369][XZ_F10_API_TEST.exe][8140]---激活工作密钥---
+[2015-12-01 16:31:28.369][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:31:28.385][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:31:28.400][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:31:28.400][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:31:28.494][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:31:28.494][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:31:28.494][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x06,FPara = 0x03
+[2015-12-01 16:31:28.603][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:31:28.603][XZ_F10_API_TEST.exe][8140]---数据mac运算---
+[2015-12-01 16:31:28.603][XZ_F10_API_TEST.exe][8140]SUNSON_MakeMac nMacDataLen = 8,ucMacData = (0x)3132333435363738
+[2015-12-01 16:31:28.666][XZ_F10_API_TEST.exe][8140]SUNSON_MakeMac, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:31:34.332][XZ_F10_API_TEST.exe][8140]---激活工作密钥---
+[2015-12-01 16:31:34.332][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:31:34.363][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:31:34.363][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:31:34.363][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:31:34.457][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:31:34.472][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:31:34.472][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x07,FPara = 0x10
+[2015-12-01 16:31:34.566][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:31:34.566][XZ_F10_API_TEST.exe][8140]---数据加密运算---
+[2015-12-01 16:31:34.566][XZ_F10_API_TEST.exe][8140]SUNSON_EncryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:31:34.644][XZ_F10_API_TEST.exe][8140]SUNSON_EncryData, ReturnInfo = D091D4C644B37262F6CB3D0A48ECA43A
+[2015-12-01 16:31:35.440][XZ_F10_API_TEST.exe][8140]---激活工作密钥---
+[2015-12-01 16:31:35.440][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, ucMkeyId = 0x00,ucWkeyId = 0x00
+[2015-12-01 16:31:35.471][XZ_F10_API_TEST.exe][8140]SUNSON_ActiveKey, result = 0x04(成功)
+[2015-12-01 16:31:35.471][XZ_F10_API_TEST.exe][8140]---设置算法处理参数---
+[2015-12-01 16:31:35.471][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter,PPara = 0x01,FPara = 0x20
+[2015-12-01 16:31:35.564][XZ_F10_API_TEST.exe][8140]SUNSON_SetAlgorithmParameter, result = 0x04(成功)
+[2015-12-01 16:31:35.564][XZ_F10_API_TEST.exe][8140]---数据解密运算---
+[2015-12-01 16:31:35.564][XZ_F10_API_TEST.exe][8140]SUNSON_DecryData, ucDataLen = 8,SourceData = (0x)3132333435363738
+[2015-12-01 16:31:35.642][XZ_F10_API_TEST.exe][8140]SUNSON_DecryData, ReturnInfo = 3FB3EDF42F69F0D9DA6B039594DDFCD1
+[2015-12-01 16:46:48.468][XZ_F10_API_TEST.exe][8140]---打开键盘仿真---
+[2015-12-01 16:46:48.468][XZ_F10_API_TEST.exe][8140]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03

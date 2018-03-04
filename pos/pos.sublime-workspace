@@ -1,0 +1,374 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"read",
+				"read_application"
+			],
+			[
+				"_exda",
+				"_exdataLen"
+			],
+			[
+				"_",
+				"_exdataLen"
+			],
+			[
+				"c",
+				"ComHandle"
+			],
+			[
+				"C",
+				"CommSetting"
+			],
+			[
+				"han",
+				"HANDLE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/prj/devices/printer/msprintdriver.py",
+			"settings":
+			{
+				"buffer_size": 4190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "process.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"install",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/prj/pos/read_application.py",
+		"/E/prj/pos/analyse_behavior.py",
+		"/E/prj/pos/test.py",
+		"/E/prj/pos/CRT_310.h",
+		"/E/prj/devices/printer/msprintdriver.py",
+		"/E/prj/pos/end_transaction.py",
+		"/E/prj/pos/pos.py",
+		"/E/prj/pos/applicationread.py",
+		"/E/prj/pos/apdu.c",
+		"/E/prj/pos/pos.c",
+		"/E/prj/bankcard.c",
+		"/E/prj/keypad.py",
+		"/E/prj/bankcard.py",
+		"/E/资料/pos/iso8583/POSConnection.cs",
+		"/D/Projects/DeviceDriver/ZTKeyBoard.cs",
+		"/E/资料/pos/iso8583/PackageData.cs",
+		"/E/资料/pos/iso8583/MainForm.resx",
+		"/E/资料/pos/iso8583/Crypto.cs",
+		"/E/资料/pos/iso8583/Crypto.designer.cs",
+		"/E/资料/pos/iso8583/Decode.cs",
+		"/E/资料/pos/iso8583/Decode.designer.cs",
+		"/E/资料/pos/iso8583/Decode.resx",
+		"/E/资料/pos/iso8583/DummyServer.cs",
+		"/E/资料/pos/iso8583/Logger.cs",
+		"/E/资料/pos/iso8583/iniFile.cs",
+		"/E/资料/pos/iso8583/HexBytes.cs",
+		"/E/资料/pos/iso8583/iso8583.PS",
+		"/E/资料/pos/iso8583/iso8583.IMD",
+		"/E/资料/pos/iso8583/iso8583.IAD",
+		"/E/资料/pos/iso8583/ISO8583.cs",
+		"/E/资料/pos/iso8583/MainForm.designer.cs",
+		"/E/资料/pos/iso8583/MainForm.cs",
+		"/D/Program Files/Sublime Text 3/Data/Packages/CTags/CTags.sublime-settings",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/CTags.sublime-settings",
+		"/E/资料/pos/iso8583/POS.cs",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/Package Control.sublime-settings",
+		"/E/prj/devices/metal_keypad/metal_kepad.py",
+		"/E/资料/pos/iso8583/Ask.resx",
+		"/E/资料/pos/iso8583/Ask.designer.cs",
+		"/E/资料/pos/iso8583/Program.cs",
+		"/E/资料/pos/iso8583/DB.cs",
+		"/E/资料/pos/iso8583/Ask.cs",
+		"/E/资料/pos/iso8583/Properties/AssemblyInfo.cs",
+		"/E/资料/pos/iso8583/Properties/Resources.Designer.cs",
+		"/E/资料/pos/iso8583/Properties/Settings.Designer.cs",
+		"/E/资料/pos/iso8583/Properties/Resources.resx",
+		"/E/资料/release/code/src/modules/ythttp.py",
+		"/E/资料/pos/iso8583/Properties/Settings.settings",
+		"/C/Users/Administrator/Application Data/SSH/temp/voicemaker.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/scanner.py",
+		"/E/prj/devices/scanning_gun/scanner.py",
+		"/E/prj/devices/scanning_gun/scanning_gun.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/scanning_gun.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/modules (1).rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/msprintdriver.rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/msprintdriver (1).rst",
+		"/C/Users/Administrator/Application Data/SSH/temp/id_read.rst",
+		"/E/prj/devices/ds1302/ds1302.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/ds1302 (1).py",
+		"/C/Users/Administrator/Application Data/SSH/temp/msprintdriver.py",
+		"/C/Users/Administrator/Application Data/SSH/temp/ds1302.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"HandleField",
+			"self"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"keypad"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/prj/devices/printer/msprintdriver.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "process.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pos.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 58.0,
+		"last_filter": "HandleField",
+		"selected_items":
+		[
+			[
+				"HandleField",
+				"HandleField"
+			]
+		],
+		"width": 464.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
